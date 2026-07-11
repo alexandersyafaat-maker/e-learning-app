@@ -1,0 +1,3975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page ID="100" Type="Page" Name="Halaman-1" Zoom="0.65" Unit="mm" PrePaper="13">
+    <PageProps>
+        <Width V="1122.52"/>
+        <Height V="1587.4"/>
+        <UnitWidth V="210"/>
+        <UnitHeight V="297"/>
+        <PageBreakWidth V="1122.52"/>
+        <PageBreakHeight V="793.701"/>
+        <Portrait V="FALSE"/>
+        <AutoSize V="TRUE"/>
+        <PageBreakLeft V="0"/>
+        <PageBreakTop V="-1"/>
+        <PageBreakRight V="1"/>
+        <PageBreakBottom V="1"/>
+        <ScrollX V="0.499268"/>
+        <ScrollY V="0.402477"/>
+        <GridBeginX V="0"/>
+        <GridBeginY V="793.701"/>
+        <OrgDirection V="1"/>
+    </PageProps>
+    <Layout>
+        <JumpMode V="1"/>
+        <JumpStyle V="0"/>
+        <JumpSize V="6"/>
+        <NumbLevel V="0"/>
+        <mmMajor V="20"/>
+        <mmMinor V="10"/>
+        <OrgVerDist V="20"/>
+        <OrgHorDist V="20"/>
+        <OrgHorAss V="8"/>
+        <HpScale V="50"/>
+        <HpPrecistion V="0.0"/>
+        <HpDispMode V="0"/>
+    </Layout>
+    <OrgFieldDisplay ShowPhoto="FALSE" NoSize="FALSE" PhotoPos="0" Width="120" Height="60" PhotoLinePos="0" TextVertical="FALSE">
+        <OrgField Show="TRUE" ID="1" Name="Nama" NameU="Name" Flag="0" Title="FALSE">
+            <Value V="" U="STR"/>
+            <Font Family="Arial" Size="9" Color="#444444"/>
+        </OrgField>
+        <OrgField Show="TRUE" ID="2" Name="Judul" NameU="Title" Flag="0" Title="FALSE">
+            <Value V="" U="STR"/>
+            <Font Family="Arial" Size="9" Color="#444444"/>
+        </OrgField>
+        <OrgField Show="TRUE" ID="6" Name="Departemen" NameU="Department" Flag="0" Title="FALSE">
+            <Value V="" U="STR"/>
+            <Font Family="Arial" Size="9" Color="#444444"/>
+        </OrgField>
+        <OrgField Show="FALSE" ID="7" Name="Email" NameU="Email" Flag="0" Title="FALSE">
+            <Value V="" U="STR"/>
+            <Font Family="Arial" Size="9" Color="#444444"/>
+        </OrgField>
+        <OrgField Show="FALSE" ID="8" Name="WPhone" NameU="WPhone" Flag="0" Title="FALSE">
+            <Value V="" U="STR"/>
+            <Font Family="Arial" Size="9" Color="#444444"/>
+        </OrgField>
+    </OrgFieldDisplay>
+    <OrgFields/>
+    <FillFormat Type="None"/>
+    <BGFromTheme V="1"/>
+    <PrintSetup FittoSheet="FALSE" Zoom="100" Width="210" Height="297" Unit="mm" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10"/>
+    <Layers>
+        <Layer Name="Latar Belakang" ID="1" Invisible="FALSE" Lock="TRUE" Print="TRUE" Active="FALSE" Background="TRUE" Snap="TRUE"/>
+        <Layer Name="Lapisan-1" ID="2" Invisible="FALSE" Lock="FALSE" Print="TRUE" Active="TRUE" Background="FALSE" Snap="TRUE"/>
+    </Layers>
+    <Theme ID="36" Name="General">
+        <ThemeColor V="83"/>
+        <ThemeEffect V="36"/>
+        <ThemeText V="3"/>
+        <ThemeConnector V="54"/>
+    </Theme>
+    <MMTheme ID="40" Rainbow="0" Name="Vitality">
+        <ThemeColor V="47"/>
+        <ThemeEffect V="40"/>
+        <ThemeText V="40"/>
+        <ThemeShape V="40"/>
+    </MMTheme>
+    <Shape Type="Group" ID="101" Layer="2" NameU="People" Name="People">
+        <Transform>
+            <Width V="38"/>
+            <Height V="68"/>
+            <Angle V="0"/>
+            <GPinX V="173"/>
+            <GPinY V="585.701"/>
+            <LocPinX V="19" R="0.5" M="1"/>
+            <LocPinY V="34" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="4"/>
+            <FromLibId V="4"/>
+        </LevelData>
+        <CPoints>
+            <CPoint Name="Pt1" ID="1" Type="0">
+                <X V="0"/>
+                <Y V="34" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt2" ID="2" Type="0">
+                <X V="19" R="0.5" M="1"/>
+                <Y V="0"/>
+            </CPoint>
+            <CPoint Name="Pt3" ID="3" Type="0">
+                <X V="38" R="1" M="1"/>
+                <Y V="34" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt4" ID="4" Type="0">
+                <X V="19" R="0.5" M="1"/>
+                <Y V="68" R="1" M="2"/>
+            </CPoint>
+        </CPoints>
+        <Misc>
+            <ObjectType V="2"/>
+        </Misc>
+        <ShapeFormat QuickMask="51">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Shape Type="Shape" ID="102" Layer="0">
+            <Transform>
+                <Width V="38" R="1" M="3"/>
+                <Height V="55.1975" R="0.811728" M="4"/>
+                <Angle V="0"/>
+                <GPinX V="19" R="0.5" M="3"/>
+                <GPinY V="40.4013" R="0.594136" M="4"/>
+                <LocPinX V="19" R="0.5" M="1"/>
+                <LocPinY V="27.5987" R="0.5" M="2"/>
+                <FlipX V="0"/>
+                <FlipY V="0"/>
+            </Transform>
+            <Misc/>
+            <ShapeFormat QuickMask="51">
+                <FillFormat Type="Solid">
+                    <Color V="#ffffffff"/>
+                </FillFormat>
+                <LineFormat>
+                    <LineWeight V="1"/>
+                    <LineCap V="Flat"/>
+                    <LinePattern ID="1"/>
+                    <BeginArrow ID="0" Size="4"/>
+                    <EndArrow ID="0" Size="4"/>
+                    <LineFill Type="Solid">
+                        <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                    </LineFill>
+                </LineFormat>
+                <EffectFormat>
+                    <Shadow Mode="0"/>
+                </EffectFormat>
+            </ShapeFormat>
+            <Geometries>
+                <Geometry>
+                    <NoFill V="0"/>
+                    <NoLine V="0"/>
+                    <Closed V="1"/>
+                    <NoShow V="0"/>
+                    <NoSnap V="1"/>
+                    <MoveTo>
+                        <X V="6.95423" R="0.183006" M="1"/>
+                        <Y V="0"/>
+                    </MoveTo>
+                    <CurveTo>
+                        <X V="7.84905" R="0.206554" M="1"/>
+                        <Y V="0"/>
+                        <A V="7.25623" R="0.190953" M="1"/>
+                        <B V="0"/>
+                        <C V="7.55449" R="0.198802" M="1"/>
+                        <D V="0"/>
+                    </CurveTo>
+                    <CurveTo>
+                        <X V="19" R="0.5" M="1"/>
+                        <Y V="7.55583" R="0.136887" M="2"/>
+                        <A V="9.64177" R="0.253731" M="1"/>
+                        <B V="4.43209" R="0.0802951" M="2"/>
+                        <C V="13.959" R="0.367343" M="1"/>
+                        <D V="7.55583" R="0.136887" M="2"/>
+                    </CurveTo>
+                    <CurveTo>
+                        <X V="30.151" R="0.793446" M="1"/>
+                        <Y V="0"/>
+                        <A V="24.041" R="0.632657" M="1"/>
+                        <B V="7.55583" R="0.136887" M="2"/>
+                        <C V="28.3582" R="0.746269" M="1"/>
+                        <D V="4.43209" R="0.0802951" M="2"/>
+                    </CurveTo>
+                    <CurveTo>
+                        <X V="31.2941" R="0.82353" M="1"/>
+                        <Y V="0"/>
+                        <A V="31.2941" R="0.82353" M="1"/>
+                        <B V="0"/>
+                        <C V="31.2941" R="0.82353" M="1"/>
+                        <D V="0"/>
+                    </CurveTo>
+                    <LineTo>
+                        <X V="38" R="1" M="1"/>
+                        <Y V="18.0156" R="0.326384" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="33.7778" R="0.888889" M="1"/>
+                        <Y V="20.2157" R="0.366244" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="28.0654" R="0.738562" M="1"/>
+                        <Y V="6.13518" R="0.11115" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="28.0654" R="0.738562" M="1"/>
+                        <Y V="24.1758" R="0.437987" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="35.5164" R="0.934641" M="1"/>
+                        <Y V="55.1975" R="1" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="28.3137" R="0.745098" M="1"/>
+                        <Y V="55.1975" R="1" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="19.1242" R="0.503268" M="1"/>
+                        <Y V="28.3559" R="0.513717" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="9.93464" R="0.261438" M="1"/>
+                        <Y V="55.1975" R="1" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="3.11596" R="0.0819989" M="1"/>
+                        <Y V="55.1975" R="1" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="10.4314" R="0.27451" M="1"/>
+                        <Y V="24.1758" R="0.437987" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="10.4314" R="0.27451" M="1"/>
+                        <Y V="6.57519" R="0.119121" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="4.96732" R="0.130719" M="1"/>
+                        <Y V="20.2157" R="0.366244" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="0"/>
+                        <Y V="18.4557" R="0.334357" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="6.95423" R="0.183006" M="1"/>
+                        <Y V="0"/>
+                    </LineTo>
+                </Geometry>
+            </Geometries>
+        </Shape>
+        <Shape Type="Ellipse" ID="103" Layer="0">
+            <Transform>
+                <Width V="15.01" R="0.395" M="3"/>
+                <Height V="15.1741" R="0.223148" M="4"/>
+                <Angle V="0"/>
+                <GPinX V="19" R="0.5" M="3"/>
+                <GPinY V="7.58704" R="0.111574" M="4"/>
+                <LocPinX V="7.505" R="0.5" M="1"/>
+                <LocPinY V="7.58704" R="0.5" M="2"/>
+                <FlipX V="0"/>
+                <FlipY V="0"/>
+            </Transform>
+            <Misc/>
+            <ShapeFormat QuickMask="51">
+                <FillFormat Type="Solid">
+                    <Color V="#ffffffff"/>
+                </FillFormat>
+                <LineFormat>
+                    <LineWeight V="1"/>
+                    <LineCap V="Flat"/>
+                    <LinePattern ID="1"/>
+                    <BeginArrow ID="0" Size="4"/>
+                    <EndArrow ID="0" Size="4"/>
+                    <LineFill Type="Solid">
+                        <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                    </LineFill>
+                </LineFormat>
+                <EffectFormat>
+                    <Shadow Mode="0"/>
+                </EffectFormat>
+            </ShapeFormat>
+            <Texts>
+                <Text ID="1" Name="T1" ExtendMode="0">
+                    <Transform>
+                        <Width V="15.01" R="1" M="1"/>
+                        <Height V="15.1741" R="1" M="2"/>
+                        <Angle V="0"/>
+                        <GPinX V="7.505" R="0.5" M="1"/>
+                        <GPinY V="7.58704" R="0.5" M="2"/>
+                        <LocPinX V="7.505" F="Text.T1.Width*0.5"/>
+                        <LocPinY V="7.58704" F="Text.T1.Height*0.5"/>
+                        <TxtField V="" U="STR"/>
+                    </Transform>
+                    <TextBlock VAlign="Center" TextFormatMask="0" TabStop="80">
+                        <Color V="#ff191919"/>
+                        <Character IX="0" Family="Arial" Size="12" Color="#191919"/>
+                        <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                        <Margins Left="4" Right="4" Top="4" Bottom="4"/>
+                    </TextBlock>
+                </Text>
+            </Texts>
+            <Geometries>
+                <Geometry>
+                    <NoFill V="0"/>
+                    <NoLine V="0"/>
+                    <Closed V="1"/>
+                    <NoShow V="0"/>
+                    <NoSnap V="1"/>
+                    <MoveTo>
+                        <X V="0"/>
+                        <Y V="7.58704" R="0.5" M="2"/>
+                    </MoveTo>
+                    <CurveTo>
+                        <X V="7.505" R="0.5" M="1"/>
+                        <Y V="0"/>
+                        <A V="0"/>
+                        <B V="3.39684" R="0.223858" M="2"/>
+                        <C V="3.36011" R="0.223858" M="1"/>
+                        <D V="0"/>
+                    </CurveTo>
+                    <CurveTo>
+                        <X V="15.01" R="1" M="1"/>
+                        <Y V="7.58704" R="0.5" M="2"/>
+                        <A V="11.6499" R="0.776142" M="1"/>
+                        <B V="0"/>
+                        <C V="15.01" R="1" M="1"/>
+                        <D V="3.39684" R="0.223858" M="2"/>
+                    </CurveTo>
+                    <CurveTo>
+                        <X V="7.505" R="0.5" M="1"/>
+                        <Y V="15.1741" R="1" M="2"/>
+                        <A V="15.01" R="1" M="1"/>
+                        <B V="11.7772" R="0.776142" M="2"/>
+                        <C V="11.6499" R="0.776142" M="1"/>
+                        <D V="15.1741" R="1" M="2"/>
+                    </CurveTo>
+                    <CurveTo>
+                        <X V="0"/>
+                        <Y V="7.58704" R="0.5" M="2"/>
+                        <A V="3.36011" R="0.223858" M="1"/>
+                        <B V="15.1741" R="1" M="2"/>
+                        <C V="0"/>
+                        <D V="11.7772" R="0.776142" M="2"/>
+                    </CurveTo>
+                </Geometry>
+            </Geometries>
+        </Shape>
+        <GroupProps>
+            <SelectMode V="1"/>
+            <GroupShadow V="FALSE"/>
+        </GroupProps>
+    </Shape>
+    <Shape Type="Group" ID="104" Layer="2" NameU="People" Name="People">
+        <Transform>
+            <Width V="38"/>
+            <Height V="68"/>
+            <Angle V="0"/>
+            <GPinX V="173"/>
+            <GPinY V="280.686"/>
+            <LocPinX V="19" R="0.5" M="1"/>
+            <LocPinY V="34" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="4"/>
+            <FromLibId V="4"/>
+        </LevelData>
+        <CPoints>
+            <CPoint Name="Pt1" ID="1" Type="0">
+                <X V="0"/>
+                <Y V="34" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt2" ID="2" Type="0">
+                <X V="19" R="0.5" M="1"/>
+                <Y V="0"/>
+            </CPoint>
+            <CPoint Name="Pt3" ID="3" Type="0">
+                <X V="38" R="1" M="1"/>
+                <Y V="34" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt4" ID="4" Type="0">
+                <X V="19" R="0.5" M="1"/>
+                <Y V="68" R="1" M="2"/>
+            </CPoint>
+        </CPoints>
+        <Misc>
+            <ObjectType V="2"/>
+        </Misc>
+        <ShapeFormat QuickMask="51">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Shape Type="Shape" ID="105" Layer="0">
+            <Transform>
+                <Width V="38" R="1" M="3"/>
+                <Height V="55.1975" R="0.811728" M="4"/>
+                <Angle V="0"/>
+                <GPinX V="19" R="0.5" M="3"/>
+                <GPinY V="40.4013" R="0.594136" M="4"/>
+                <LocPinX V="19" R="0.5" M="1"/>
+                <LocPinY V="27.5987" R="0.5" M="2"/>
+                <FlipX V="0"/>
+                <FlipY V="0"/>
+            </Transform>
+            <Misc/>
+            <ShapeFormat QuickMask="51">
+                <FillFormat Type="Solid">
+                    <Color V="#ffffffff"/>
+                </FillFormat>
+                <LineFormat>
+                    <LineWeight V="1"/>
+                    <LineCap V="Flat"/>
+                    <LinePattern ID="1"/>
+                    <BeginArrow ID="0" Size="4"/>
+                    <EndArrow ID="0" Size="4"/>
+                    <LineFill Type="Solid">
+                        <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                    </LineFill>
+                </LineFormat>
+                <EffectFormat>
+                    <Shadow Mode="0"/>
+                </EffectFormat>
+            </ShapeFormat>
+            <Geometries>
+                <Geometry>
+                    <NoFill V="0"/>
+                    <NoLine V="0"/>
+                    <Closed V="1"/>
+                    <NoShow V="0"/>
+                    <NoSnap V="1"/>
+                    <MoveTo>
+                        <X V="6.95423" R="0.183006" M="1"/>
+                        <Y V="0"/>
+                    </MoveTo>
+                    <CurveTo>
+                        <X V="7.84905" R="0.206554" M="1"/>
+                        <Y V="0"/>
+                        <A V="7.25623" R="0.190953" M="1"/>
+                        <B V="0"/>
+                        <C V="7.55449" R="0.198802" M="1"/>
+                        <D V="0"/>
+                    </CurveTo>
+                    <CurveTo>
+                        <X V="19" R="0.5" M="1"/>
+                        <Y V="7.55583" R="0.136887" M="2"/>
+                        <A V="9.64177" R="0.253731" M="1"/>
+                        <B V="4.43209" R="0.0802951" M="2"/>
+                        <C V="13.959" R="0.367343" M="1"/>
+                        <D V="7.55583" R="0.136887" M="2"/>
+                    </CurveTo>
+                    <CurveTo>
+                        <X V="30.151" R="0.793446" M="1"/>
+                        <Y V="0"/>
+                        <A V="24.041" R="0.632657" M="1"/>
+                        <B V="7.55583" R="0.136887" M="2"/>
+                        <C V="28.3582" R="0.746269" M="1"/>
+                        <D V="4.43209" R="0.0802951" M="2"/>
+                    </CurveTo>
+                    <CurveTo>
+                        <X V="31.2941" R="0.82353" M="1"/>
+                        <Y V="0"/>
+                        <A V="31.2941" R="0.82353" M="1"/>
+                        <B V="0"/>
+                        <C V="31.2941" R="0.82353" M="1"/>
+                        <D V="0"/>
+                    </CurveTo>
+                    <LineTo>
+                        <X V="38" R="1" M="1"/>
+                        <Y V="18.0156" R="0.326384" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="33.7778" R="0.888889" M="1"/>
+                        <Y V="20.2157" R="0.366244" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="28.0654" R="0.738562" M="1"/>
+                        <Y V="6.13518" R="0.11115" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="28.0654" R="0.738562" M="1"/>
+                        <Y V="24.1758" R="0.437987" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="35.5164" R="0.934641" M="1"/>
+                        <Y V="55.1975" R="1" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="28.3137" R="0.745098" M="1"/>
+                        <Y V="55.1975" R="1" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="19.1242" R="0.503268" M="1"/>
+                        <Y V="28.3559" R="0.513717" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="9.93464" R="0.261438" M="1"/>
+                        <Y V="55.1975" R="1" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="3.11596" R="0.0819989" M="1"/>
+                        <Y V="55.1975" R="1" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="10.4314" R="0.27451" M="1"/>
+                        <Y V="24.1758" R="0.437987" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="10.4314" R="0.27451" M="1"/>
+                        <Y V="6.57519" R="0.119121" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="4.96732" R="0.130719" M="1"/>
+                        <Y V="20.2157" R="0.366244" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="0"/>
+                        <Y V="18.4557" R="0.334357" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="6.95423" R="0.183006" M="1"/>
+                        <Y V="0"/>
+                    </LineTo>
+                </Geometry>
+            </Geometries>
+        </Shape>
+        <Shape Type="Ellipse" ID="106" Layer="0">
+            <Transform>
+                <Width V="15.01" R="0.395" M="3"/>
+                <Height V="15.1741" R="0.223148" M="4"/>
+                <Angle V="0"/>
+                <GPinX V="19" R="0.5" M="3"/>
+                <GPinY V="7.58704" R="0.111574" M="4"/>
+                <LocPinX V="7.505" R="0.5" M="1"/>
+                <LocPinY V="7.58704" R="0.5" M="2"/>
+                <FlipX V="0"/>
+                <FlipY V="0"/>
+            </Transform>
+            <Misc/>
+            <ShapeFormat QuickMask="51">
+                <FillFormat Type="Solid">
+                    <Color V="#ffffffff"/>
+                </FillFormat>
+                <LineFormat>
+                    <LineWeight V="1"/>
+                    <LineCap V="Flat"/>
+                    <LinePattern ID="1"/>
+                    <BeginArrow ID="0" Size="4"/>
+                    <EndArrow ID="0" Size="4"/>
+                    <LineFill Type="Solid">
+                        <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                    </LineFill>
+                </LineFormat>
+                <EffectFormat>
+                    <Shadow Mode="0"/>
+                </EffectFormat>
+            </ShapeFormat>
+            <Texts>
+                <Text ID="1" Name="T1" ExtendMode="0">
+                    <Transform>
+                        <Width V="15.01" R="1" M="1"/>
+                        <Height V="15.1741" R="1" M="2"/>
+                        <Angle V="0"/>
+                        <GPinX V="7.505" R="0.5" M="1"/>
+                        <GPinY V="7.58704" R="0.5" M="2"/>
+                        <LocPinX V="7.505" F="Text.T1.Width*0.5"/>
+                        <LocPinY V="7.58704" F="Text.T1.Height*0.5"/>
+                        <TxtField V="" U="STR"/>
+                    </Transform>
+                    <TextBlock VAlign="Center" TextFormatMask="0" TabStop="80">
+                        <Color V="#ff191919"/>
+                        <Character IX="0" Family="Arial" Size="12" Color="#191919"/>
+                        <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                        <Margins Left="4" Right="4" Top="4" Bottom="4"/>
+                    </TextBlock>
+                </Text>
+            </Texts>
+            <Geometries>
+                <Geometry>
+                    <NoFill V="0"/>
+                    <NoLine V="0"/>
+                    <Closed V="1"/>
+                    <NoShow V="0"/>
+                    <NoSnap V="1"/>
+                    <MoveTo>
+                        <X V="0"/>
+                        <Y V="7.58704" R="0.5" M="2"/>
+                    </MoveTo>
+                    <CurveTo>
+                        <X V="7.505" R="0.5" M="1"/>
+                        <Y V="0"/>
+                        <A V="0"/>
+                        <B V="3.39684" R="0.223858" M="2"/>
+                        <C V="3.36011" R="0.223858" M="1"/>
+                        <D V="0"/>
+                    </CurveTo>
+                    <CurveTo>
+                        <X V="15.01" R="1" M="1"/>
+                        <Y V="7.58704" R="0.5" M="2"/>
+                        <A V="11.6499" R="0.776142" M="1"/>
+                        <B V="0"/>
+                        <C V="15.01" R="1" M="1"/>
+                        <D V="3.39684" R="0.223858" M="2"/>
+                    </CurveTo>
+                    <CurveTo>
+                        <X V="7.505" R="0.5" M="1"/>
+                        <Y V="15.1741" R="1" M="2"/>
+                        <A V="15.01" R="1" M="1"/>
+                        <B V="11.7772" R="0.776142" M="2"/>
+                        <C V="11.6499" R="0.776142" M="1"/>
+                        <D V="15.1741" R="1" M="2"/>
+                    </CurveTo>
+                    <CurveTo>
+                        <X V="0"/>
+                        <Y V="7.58704" R="0.5" M="2"/>
+                        <A V="3.36011" R="0.223858" M="1"/>
+                        <B V="15.1741" R="1" M="2"/>
+                        <C V="0"/>
+                        <D V="11.7772" R="0.776142" M="2"/>
+                    </CurveTo>
+                </Geometry>
+            </Geometries>
+        </Shape>
+        <GroupProps>
+            <SelectMode V="1"/>
+            <GroupShadow V="FALSE"/>
+        </GroupProps>
+    </Shape>
+    <Shape Type="Group" ID="109" Layer="2" NameU="People" Name="People">
+        <Transform>
+            <Width V="38"/>
+            <Height V="68"/>
+            <Angle V="0"/>
+            <GPinX V="173"/>
+            <GPinY V="926.701"/>
+            <LocPinX V="19" R="0.5" M="1"/>
+            <LocPinY V="34" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="4"/>
+            <FromLibId V="4"/>
+        </LevelData>
+        <CPoints>
+            <CPoint Name="Pt1" ID="1" Type="0">
+                <X V="0"/>
+                <Y V="34" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt2" ID="2" Type="0">
+                <X V="19" R="0.5" M="1"/>
+                <Y V="0"/>
+            </CPoint>
+            <CPoint Name="Pt3" ID="3" Type="0">
+                <X V="38" R="1" M="1"/>
+                <Y V="34" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt4" ID="4" Type="0">
+                <X V="19" R="0.5" M="1"/>
+                <Y V="68" R="1" M="2"/>
+            </CPoint>
+        </CPoints>
+        <Misc>
+            <ObjectType V="2"/>
+        </Misc>
+        <ShapeFormat QuickMask="51">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Shape Type="Shape" ID="110" Layer="0">
+            <Transform>
+                <Width V="38" R="1" M="3"/>
+                <Height V="55.1975" R="0.811728" M="4"/>
+                <Angle V="0"/>
+                <GPinX V="19" R="0.5" M="3"/>
+                <GPinY V="40.4013" R="0.594136" M="4"/>
+                <LocPinX V="19" R="0.5" M="1"/>
+                <LocPinY V="27.5987" R="0.5" M="2"/>
+                <FlipX V="0"/>
+                <FlipY V="0"/>
+            </Transform>
+            <Misc/>
+            <ShapeFormat QuickMask="51">
+                <FillFormat Type="Solid">
+                    <Color V="#ffffffff"/>
+                </FillFormat>
+                <LineFormat>
+                    <LineWeight V="1"/>
+                    <LineCap V="Flat"/>
+                    <LinePattern ID="1"/>
+                    <BeginArrow ID="0" Size="4"/>
+                    <EndArrow ID="0" Size="4"/>
+                    <LineFill Type="Solid">
+                        <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                    </LineFill>
+                </LineFormat>
+                <EffectFormat>
+                    <Shadow Mode="0"/>
+                </EffectFormat>
+            </ShapeFormat>
+            <Geometries>
+                <Geometry>
+                    <NoFill V="0"/>
+                    <NoLine V="0"/>
+                    <Closed V="1"/>
+                    <NoShow V="0"/>
+                    <NoSnap V="1"/>
+                    <MoveTo>
+                        <X V="6.95423" R="0.183006" M="1"/>
+                        <Y V="0"/>
+                    </MoveTo>
+                    <CurveTo>
+                        <X V="7.84905" R="0.206554" M="1"/>
+                        <Y V="0"/>
+                        <A V="7.25623" R="0.190953" M="1"/>
+                        <B V="0"/>
+                        <C V="7.55449" R="0.198802" M="1"/>
+                        <D V="0"/>
+                    </CurveTo>
+                    <CurveTo>
+                        <X V="19" R="0.5" M="1"/>
+                        <Y V="7.55583" R="0.136887" M="2"/>
+                        <A V="9.64177" R="0.253731" M="1"/>
+                        <B V="4.43209" R="0.0802951" M="2"/>
+                        <C V="13.959" R="0.367343" M="1"/>
+                        <D V="7.55583" R="0.136887" M="2"/>
+                    </CurveTo>
+                    <CurveTo>
+                        <X V="30.151" R="0.793446" M="1"/>
+                        <Y V="0"/>
+                        <A V="24.041" R="0.632657" M="1"/>
+                        <B V="7.55583" R="0.136887" M="2"/>
+                        <C V="28.3582" R="0.746269" M="1"/>
+                        <D V="4.43209" R="0.0802951" M="2"/>
+                    </CurveTo>
+                    <CurveTo>
+                        <X V="31.2941" R="0.82353" M="1"/>
+                        <Y V="0"/>
+                        <A V="31.2941" R="0.82353" M="1"/>
+                        <B V="0"/>
+                        <C V="31.2941" R="0.82353" M="1"/>
+                        <D V="0"/>
+                    </CurveTo>
+                    <LineTo>
+                        <X V="38" R="1" M="1"/>
+                        <Y V="18.0156" R="0.326384" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="33.7778" R="0.888889" M="1"/>
+                        <Y V="20.2157" R="0.366244" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="28.0654" R="0.738562" M="1"/>
+                        <Y V="6.13518" R="0.11115" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="28.0654" R="0.738562" M="1"/>
+                        <Y V="24.1758" R="0.437987" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="35.5164" R="0.934641" M="1"/>
+                        <Y V="55.1975" R="1" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="28.3137" R="0.745098" M="1"/>
+                        <Y V="55.1975" R="1" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="19.1242" R="0.503268" M="1"/>
+                        <Y V="28.3559" R="0.513717" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="9.93464" R="0.261438" M="1"/>
+                        <Y V="55.1975" R="1" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="3.11596" R="0.0819989" M="1"/>
+                        <Y V="55.1975" R="1" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="10.4314" R="0.27451" M="1"/>
+                        <Y V="24.1758" R="0.437987" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="10.4314" R="0.27451" M="1"/>
+                        <Y V="6.57519" R="0.119121" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="4.96732" R="0.130719" M="1"/>
+                        <Y V="20.2157" R="0.366244" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="0"/>
+                        <Y V="18.4557" R="0.334357" M="2"/>
+                    </LineTo>
+                    <LineTo>
+                        <X V="6.95423" R="0.183006" M="1"/>
+                        <Y V="0"/>
+                    </LineTo>
+                </Geometry>
+            </Geometries>
+        </Shape>
+        <Shape Type="Ellipse" ID="111" Layer="0">
+            <Transform>
+                <Width V="15.01" R="0.395" M="3"/>
+                <Height V="15.1741" R="0.223148" M="4"/>
+                <Angle V="0"/>
+                <GPinX V="19" R="0.5" M="3"/>
+                <GPinY V="7.58704" R="0.111574" M="4"/>
+                <LocPinX V="7.505" R="0.5" M="1"/>
+                <LocPinY V="7.58704" R="0.5" M="2"/>
+                <FlipX V="0"/>
+                <FlipY V="0"/>
+            </Transform>
+            <Misc/>
+            <ShapeFormat QuickMask="51">
+                <FillFormat Type="Solid">
+                    <Color V="#ffffffff"/>
+                </FillFormat>
+                <LineFormat>
+                    <LineWeight V="1"/>
+                    <LineCap V="Flat"/>
+                    <LinePattern ID="1"/>
+                    <BeginArrow ID="0" Size="4"/>
+                    <EndArrow ID="0" Size="4"/>
+                    <LineFill Type="Solid">
+                        <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                    </LineFill>
+                </LineFormat>
+                <EffectFormat>
+                    <Shadow Mode="0"/>
+                </EffectFormat>
+            </ShapeFormat>
+            <Texts>
+                <Text ID="1" Name="T1" ExtendMode="0">
+                    <Transform>
+                        <Width V="15.01" R="1" M="1"/>
+                        <Height V="15.1741" R="1" M="2"/>
+                        <Angle V="0"/>
+                        <GPinX V="7.505" R="0.5" M="1"/>
+                        <GPinY V="7.58704" R="0.5" M="2"/>
+                        <LocPinX V="7.505" F="Text.T1.Width*0.5"/>
+                        <LocPinY V="7.58704" F="Text.T1.Height*0.5"/>
+                        <TxtField V="" U="STR"/>
+                    </Transform>
+                    <TextBlock VAlign="Center" TextFormatMask="0" TabStop="80">
+                        <Color V="#ff191919"/>
+                        <Character IX="0" Family="Arial" Size="12" Color="#191919"/>
+                        <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                        <Margins Left="4" Right="4" Top="4" Bottom="4"/>
+                    </TextBlock>
+                </Text>
+            </Texts>
+            <Geometries>
+                <Geometry>
+                    <NoFill V="0"/>
+                    <NoLine V="0"/>
+                    <Closed V="1"/>
+                    <NoShow V="0"/>
+                    <NoSnap V="1"/>
+                    <MoveTo>
+                        <X V="0"/>
+                        <Y V="7.58704" R="0.5" M="2"/>
+                    </MoveTo>
+                    <CurveTo>
+                        <X V="7.505" R="0.5" M="1"/>
+                        <Y V="0"/>
+                        <A V="0"/>
+                        <B V="3.39684" R="0.223858" M="2"/>
+                        <C V="3.36011" R="0.223858" M="1"/>
+                        <D V="0"/>
+                    </CurveTo>
+                    <CurveTo>
+                        <X V="15.01" R="1" M="1"/>
+                        <Y V="7.58704" R="0.5" M="2"/>
+                        <A V="11.6499" R="0.776142" M="1"/>
+                        <B V="0"/>
+                        <C V="15.01" R="1" M="1"/>
+                        <D V="3.39684" R="0.223858" M="2"/>
+                    </CurveTo>
+                    <CurveTo>
+                        <X V="7.505" R="0.5" M="1"/>
+                        <Y V="15.1741" R="1" M="2"/>
+                        <A V="15.01" R="1" M="1"/>
+                        <B V="11.7772" R="0.776142" M="2"/>
+                        <C V="11.6499" R="0.776142" M="1"/>
+                        <D V="15.1741" R="1" M="2"/>
+                    </CurveTo>
+                    <CurveTo>
+                        <X V="0"/>
+                        <Y V="7.58704" R="0.5" M="2"/>
+                        <A V="3.36011" R="0.223858" M="1"/>
+                        <B V="15.1741" R="1" M="2"/>
+                        <C V="0"/>
+                        <D V="11.7772" R="0.776142" M="2"/>
+                    </CurveTo>
+                </Geometry>
+            </Geometries>
+        </Shape>
+        <GroupProps>
+            <SelectMode V="1"/>
+            <GroupShadow V="FALSE"/>
+        </GroupProps>
+    </Shape>
+    <Shape Type="Shape" ID="112" Layer="2" NameU="Process" Name="Process">
+        <Transform>
+            <Width V="100"/>
+            <Height V="29"/>
+            <Angle V="0"/>
+            <GPinX V="94"/>
+            <GPinY V="280.686"/>
+            <LocPinX V="50" R="0.5" M="1"/>
+            <LocPinY V="14.5" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="4"/>
+            <FromLibId V="4"/>
+        </LevelData>
+        <CPoints>
+            <CPoint Name="Pt1" ID="1" Type="0">
+                <X V="0"/>
+                <Y V="14.5" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt2" ID="2" Type="0">
+                <X V="50" R="0.5" M="1"/>
+                <Y V="0"/>
+            </CPoint>
+            <CPoint Name="Pt3" ID="3" Type="0">
+                <X V="100" R="1" M="1"/>
+                <Y V="14.5" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt4" ID="4" Type="0">
+                <X V="50" R="0.5" M="1"/>
+                <Y V="29" R="1" M="2"/>
+            </CPoint>
+        </CPoints>
+        <Misc>
+            <ObjectType V="2"/>
+        </Misc>
+        <Events>
+            <EventDrop V="0" F="0"/>
+        </Events>
+        <ShapeFormat QuickMask="51">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="0">
+                <Transform>
+                    <Width V="100" R="1" M="1"/>
+                    <Height V="29" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="50" R="0.5" M="1"/>
+                    <GPinY V="14.5" R="0.5" M="2"/>
+                    <LocPinX V="50" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="14.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="256" TabStop="80">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="8" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Margins Left="4" Right="4" Top="4" Bottom="4"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">ADMINISTRATOR</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="100" R="1" M="1"/>
+                    <Y V="29" R="1" M="2"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="100" R="1" M="1"/>
+                    <Y V="0"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="29" R="1" M="2"/>
+                </LineTo>
+                <LineTo>
+                    <X V="100" R="1" M="1"/>
+                    <Y V="29" R="1" M="2"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="Shape" ID="113" Layer="2" NameU="Process" Name="Process">
+        <Transform>
+            <Width V="100"/>
+            <Height V="29"/>
+            <Angle V="0"/>
+            <GPinX V="98"/>
+            <GPinY V="932.201"/>
+            <LocPinX V="50" R="0.5" M="1"/>
+            <LocPinY V="14.5" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="4"/>
+            <FromLibId V="4"/>
+        </LevelData>
+        <CPoints>
+            <CPoint Name="Pt1" ID="1" Type="0">
+                <X V="0"/>
+                <Y V="14.5" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt2" ID="2" Type="0">
+                <X V="50" R="0.5" M="1"/>
+                <Y V="0"/>
+            </CPoint>
+            <CPoint Name="Pt3" ID="3" Type="0">
+                <X V="100" R="1" M="1"/>
+                <Y V="14.5" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt4" ID="4" Type="0">
+                <X V="50" R="0.5" M="1"/>
+                <Y V="29" R="1" M="2"/>
+            </CPoint>
+        </CPoints>
+        <Misc>
+            <ObjectType V="2"/>
+        </Misc>
+        <Events>
+            <EventDrop V="0" F="0"/>
+        </Events>
+        <ShapeFormat QuickMask="51">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="0">
+                <Transform>
+                    <Width V="100" R="1" M="1"/>
+                    <Height V="29" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="50" R="0.5" M="1"/>
+                    <GPinY V="14.5" R="0.5" M="2"/>
+                    <LocPinX V="50" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="14.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="256" TabStop="80">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="8" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Margins Left="4" Right="4" Top="4" Bottom="4"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">SISWA</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="100" R="1" M="1"/>
+                    <Y V="29" R="1" M="2"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="100" R="1" M="1"/>
+                    <Y V="0"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="29" R="1" M="2"/>
+                </LineTo>
+                <LineTo>
+                    <X V="100" R="1" M="1"/>
+                    <Y V="29" R="1" M="2"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="Shape" ID="115" Layer="2" NameU="Process" Name="Process">
+        <Transform>
+            <Width V="100"/>
+            <Height V="29"/>
+            <Angle V="0"/>
+            <GPinX V="98"/>
+            <GPinY V="588.801"/>
+            <LocPinX V="50" R="0.5" M="1"/>
+            <LocPinY V="14.5" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="4"/>
+            <FromLibId V="4"/>
+        </LevelData>
+        <CPoints>
+            <CPoint Name="Pt1" ID="1" Type="0">
+                <X V="0"/>
+                <Y V="14.5" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt2" ID="2" Type="0">
+                <X V="50" R="0.5" M="1"/>
+                <Y V="0"/>
+            </CPoint>
+            <CPoint Name="Pt3" ID="3" Type="0">
+                <X V="100" R="1" M="1"/>
+                <Y V="14.5" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt4" ID="4" Type="0">
+                <X V="50" R="0.5" M="1"/>
+                <Y V="29" R="1" M="2"/>
+            </CPoint>
+        </CPoints>
+        <Misc>
+            <ObjectType V="2"/>
+        </Misc>
+        <Events>
+            <EventDrop V="0" F="0"/>
+        </Events>
+        <ShapeFormat QuickMask="51">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="0">
+                <Transform>
+                    <Width V="100" R="1" M="1"/>
+                    <Height V="29" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="50" R="0.5" M="1"/>
+                    <GPinY V="14.5" R="0.5" M="2"/>
+                    <LocPinX V="50" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="14.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="256" TabStop="80">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="8" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Margins Left="4" Right="4" Top="4" Bottom="4"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">GURU</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="100" R="1" M="1"/>
+                    <Y V="29" R="1" M="2"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="100" R="1" M="1"/>
+                    <Y V="0"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="29" R="1" M="2"/>
+                </LineTo>
+                <LineTo>
+                    <X V="100" R="1" M="1"/>
+                    <Y V="29" R="1" M="2"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="Ellipse" ID="116" Layer="2" NameU="Start" Name="Start">
+        <Transform>
+            <Width V="127"/>
+            <Height V="76.2"/>
+            <Angle V="0"/>
+            <GPinX V="592.5"/>
+            <GPinY V="740.801"/>
+            <LocPinX V="63.5" R="0.5" M="1"/>
+            <LocPinY V="38.1" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="4"/>
+            <FromLibId V="4"/>
+        </LevelData>
+        <CPoints>
+            <CPoint Name="Pt1" ID="1" Type="0">
+                <X V="0"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt2" ID="2" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="0"/>
+            </CPoint>
+            <CPoint Name="Pt3" ID="3" Type="0">
+                <X V="127" R="1" M="1"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt4" ID="4" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="76.2" R="1" M="2"/>
+            </CPoint>
+        </CPoints>
+        <Misc>
+            <ObjectType V="2"/>
+        </Misc>
+        <Properties>
+            <Prop ID="1" Type="4" Name="Cost" Label="Cost">
+                <Format V="#,###0.00" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+                <Unit V="CNY" U="STR"/>
+            </Prop>
+            <Prop ID="2" Type="3" Name="Duration" Label="Duration">
+                <Format V="[h]:[mm] &quot;eh:em&quot;" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+            <Prop ID="3" Type="0" Name="Resources" Label="Resources">
+                <Format V="@" U="STR"/>
+                <Value V="" U="STR"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+        </Properties>
+        <ShapeFormat QuickMask="51">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="512">
+                <Transform>
+                    <Width V="127" R="1" M="1"/>
+                    <Height V="76.2" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="63.5" R="0.5" M="1"/>
+                    <GPinY V="38.1" R="0.5" M="2"/>
+                    <LocPinX V="63.5" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="38.1" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="256" TabStop="80">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="10" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Margins Left="4" Right="4" Top="4" Bottom="4"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0"> AKSES</tp>
+                        </pp>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">MATERI</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                </MoveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="0"/>
+                    <A V="0"/>
+                    <B V="17.058" R="0.223858" M="2"/>
+                    <C V="28.43" R="0.223858" M="1"/>
+                    <D V="0"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="127" R="1" M="1"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="98.57" R="0.776142" M="1"/>
+                    <B V="0"/>
+                    <C V="127" R="1" M="1"/>
+                    <D V="17.058" R="0.223858" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="76.2" R="1" M="2"/>
+                    <A V="127" R="1" M="1"/>
+                    <B V="59.142" R="0.776142" M="2"/>
+                    <C V="98.57" R="0.776142" M="1"/>
+                    <D V="76.2" R="1" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="28.43" R="0.223858" M="1"/>
+                    <B V="76.2" R="1" M="2"/>
+                    <C V="0"/>
+                    <D V="59.142" R="0.776142" M="2"/>
+                </CurveTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="Ellipse" ID="118" Layer="2" NameU="Start" Name="Start">
+        <Transform>
+            <Width V="127"/>
+            <Height V="76.2"/>
+            <Angle V="0"/>
+            <GPinX V="592.5"/>
+            <GPinY V="170.801"/>
+            <LocPinX V="63.5" R="0.5" M="1"/>
+            <LocPinY V="38.1" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="4"/>
+            <FromLibId V="4"/>
+        </LevelData>
+        <CPoints>
+            <CPoint Name="Pt1" ID="1" Type="0">
+                <X V="0"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt2" ID="2" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="0"/>
+            </CPoint>
+            <CPoint Name="Pt3" ID="3" Type="0">
+                <X V="127" R="1" M="1"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt4" ID="4" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="76.2" R="1" M="2"/>
+            </CPoint>
+        </CPoints>
+        <Misc>
+            <ObjectType V="2"/>
+        </Misc>
+        <Properties>
+            <Prop ID="1" Type="4" Name="Cost" Label="Cost">
+                <Format V="#,###0.00" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+                <Unit V="CNY" U="STR"/>
+            </Prop>
+            <Prop ID="2" Type="3" Name="Duration" Label="Duration">
+                <Format V="[h]:[mm] &quot;eh:em&quot;" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+            <Prop ID="3" Type="0" Name="Resources" Label="Resources">
+                <Format V="@" U="STR"/>
+                <Value V="" U="STR"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+        </Properties>
+        <ShapeFormat QuickMask="51">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="512">
+                <Transform>
+                    <Width V="127" R="1" M="1"/>
+                    <Height V="76.2" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="63.5" R="0.5" M="1"/>
+                    <GPinY V="38.1" R="0.5" M="2"/>
+                    <LocPinX V="63.5" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="38.1" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="256" TabStop="80">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="10" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Margins Left="4" Right="4" Top="4" Bottom="4"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">KELOLA</tp>
+                        </pp>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">AKUN</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                </MoveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="0"/>
+                    <A V="0"/>
+                    <B V="17.058" R="0.223858" M="2"/>
+                    <C V="28.43" R="0.223858" M="1"/>
+                    <D V="0"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="127" R="1" M="1"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="98.57" R="0.776142" M="1"/>
+                    <B V="0"/>
+                    <C V="127" R="1" M="1"/>
+                    <D V="17.058" R="0.223858" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="76.2" R="1" M="2"/>
+                    <A V="127" R="1" M="1"/>
+                    <B V="59.142" R="0.776142" M="2"/>
+                    <C V="98.57" R="0.776142" M="1"/>
+                    <D V="76.2" R="1" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="28.43" R="0.223858" M="1"/>
+                    <B V="76.2" R="1" M="2"/>
+                    <C V="0"/>
+                    <D V="59.142" R="0.776142" M="2"/>
+                </CurveTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="Ellipse" ID="122" Layer="2" NameU="Start" Name="Start">
+        <Transform>
+            <Width V="127"/>
+            <Height V="76.2"/>
+            <Angle V="0"/>
+            <GPinX V="593.568"/>
+            <GPinY V="1122.45"/>
+            <LocPinX V="63.5" R="0.5" M="1"/>
+            <LocPinY V="38.1" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="4"/>
+            <FromLibId V="4"/>
+        </LevelData>
+        <CPoints>
+            <CPoint Name="Pt1" ID="1" Type="0">
+                <X V="0"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt2" ID="2" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="0"/>
+            </CPoint>
+            <CPoint Name="Pt3" ID="3" Type="0">
+                <X V="127" R="1" M="1"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt4" ID="4" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="76.2" R="1" M="2"/>
+            </CPoint>
+        </CPoints>
+        <Misc>
+            <ObjectType V="2"/>
+        </Misc>
+        <Properties>
+            <Prop ID="1" Type="4" Name="Cost" Label="Cost">
+                <Format V="#,###0.00" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+                <Unit V="CNY" U="STR"/>
+            </Prop>
+            <Prop ID="2" Type="3" Name="Duration" Label="Duration">
+                <Format V="[h]:[mm] &quot;eh:em&quot;" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+            <Prop ID="3" Type="0" Name="Resources" Label="Resources">
+                <Format V="@" U="STR"/>
+                <Value V="" U="STR"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+        </Properties>
+        <ShapeFormat QuickMask="51">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="512">
+                <Transform>
+                    <Width V="127" R="1" M="1"/>
+                    <Height V="76.2" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="63.5" R="0.5" M="1"/>
+                    <GPinY V="38.1" R="0.5" M="2"/>
+                    <LocPinX V="63.5" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="38.1" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="256" TabStop="80">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="10.5" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Margins Left="4" Right="4" Top="4" Bottom="4"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">LOGOUT</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                </MoveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="0"/>
+                    <A V="0"/>
+                    <B V="17.058" R="0.223858" M="2"/>
+                    <C V="28.43" R="0.223858" M="1"/>
+                    <D V="0"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="127" R="1" M="1"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="98.57" R="0.776142" M="1"/>
+                    <B V="0"/>
+                    <C V="127" R="1" M="1"/>
+                    <D V="17.058" R="0.223858" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="76.2" R="1" M="2"/>
+                    <A V="127" R="1" M="1"/>
+                    <B V="59.142" R="0.776142" M="2"/>
+                    <C V="98.57" R="0.776142" M="1"/>
+                    <D V="76.2" R="1" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="28.43" R="0.223858" M="1"/>
+                    <B V="76.2" R="1" M="2"/>
+                    <C V="0"/>
+                    <D V="59.142" R="0.776142" M="2"/>
+                </CurveTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="Ellipse" ID="124" Layer="2" NameU="Start" Name="Start">
+        <Transform>
+            <Width V="127"/>
+            <Height V="76.2"/>
+            <Angle V="0"/>
+            <GPinX V="592.5"/>
+            <GPinY V="75.8008"/>
+            <LocPinX V="63.5" R="0.5" M="1"/>
+            <LocPinY V="38.1" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="4"/>
+            <FromLibId V="4"/>
+        </LevelData>
+        <CPoints>
+            <CPoint Name="Pt1" ID="1" Type="0">
+                <X V="0"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt2" ID="2" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="0"/>
+            </CPoint>
+            <CPoint Name="Pt3" ID="3" Type="0">
+                <X V="127" R="1" M="1"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt4" ID="4" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="76.2" R="1" M="2"/>
+            </CPoint>
+        </CPoints>
+        <Misc>
+            <ObjectType V="2"/>
+        </Misc>
+        <Properties>
+            <Prop ID="1" Type="4" Name="Cost" Label="Cost">
+                <Format V="#,###0.00" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+                <Unit V="CNY" U="STR"/>
+            </Prop>
+            <Prop ID="2" Type="3" Name="Duration" Label="Duration">
+                <Format V="[h]:[mm] &quot;eh:em&quot;" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+            <Prop ID="3" Type="0" Name="Resources" Label="Resources">
+                <Format V="@" U="STR"/>
+                <Value V="" U="STR"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+        </Properties>
+        <ShapeFormat QuickMask="51">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="512">
+                <Transform>
+                    <Width V="127" R="1" M="1"/>
+                    <Height V="76.2" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="63.5" R="0.5" M="1"/>
+                    <GPinY V="38.1" R="0.5" M="2"/>
+                    <LocPinX V="63.5" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="38.1" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="256" TabStop="80">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="10" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Margins Left="4" Right="4" Top="4" Bottom="4"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">LOGIN</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                </MoveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="0"/>
+                    <A V="0"/>
+                    <B V="17.058" R="0.223858" M="2"/>
+                    <C V="28.43" R="0.223858" M="1"/>
+                    <D V="0"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="127" R="1" M="1"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="98.57" R="0.776142" M="1"/>
+                    <B V="0"/>
+                    <C V="127" R="1" M="1"/>
+                    <D V="17.058" R="0.223858" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="76.2" R="1" M="2"/>
+                    <A V="127" R="1" M="1"/>
+                    <B V="59.142" R="0.776142" M="2"/>
+                    <C V="98.57" R="0.776142" M="1"/>
+                    <D V="76.2" R="1" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="28.43" R="0.223858" M="1"/>
+                    <B V="76.2" R="1" M="2"/>
+                    <C V="0"/>
+                    <D V="59.142" R="0.776142" M="2"/>
+                </CurveTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="Ellipse" ID="125" Layer="2" NameU="Start" Name="Start">
+        <Transform>
+            <Width V="127"/>
+            <Height V="76.2"/>
+            <Angle V="0"/>
+            <GPinX V="593.568"/>
+            <GPinY V="835.801"/>
+            <LocPinX V="63.5" R="0.5" M="1"/>
+            <LocPinY V="38.1" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="4"/>
+            <FromLibId V="4"/>
+        </LevelData>
+        <CPoints>
+            <CPoint Name="Pt1" ID="1" Type="0">
+                <X V="0"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt2" ID="2" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="0"/>
+            </CPoint>
+            <CPoint Name="Pt3" ID="3" Type="0">
+                <X V="127" R="1" M="1"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt4" ID="4" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="76.2" R="1" M="2"/>
+            </CPoint>
+        </CPoints>
+        <Misc>
+            <ObjectType V="2"/>
+        </Misc>
+        <Properties>
+            <Prop ID="1" Type="4" Name="Cost" Label="Cost">
+                <Format V="#,###0.00" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+                <Unit V="CNY" U="STR"/>
+            </Prop>
+            <Prop ID="2" Type="3" Name="Duration" Label="Duration">
+                <Format V="[h]:[mm] &quot;eh:em&quot;" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+            <Prop ID="3" Type="0" Name="Resources" Label="Resources">
+                <Format V="@" U="STR"/>
+                <Value V="" U="STR"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+        </Properties>
+        <ShapeFormat QuickMask="51">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="512">
+                <Transform>
+                    <Width V="127" R="1" M="1"/>
+                    <Height V="76.2" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="63.5" R="0.5" M="1"/>
+                    <GPinY V="38.1" R="0.5" M="2"/>
+                    <LocPinX V="63.5" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="38.1" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="256" TabStop="80">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="9" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Margins Left="4" Right="4" Top="4" Bottom="4"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">KERJAKAN</tp>
+                        </pp>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">LATIHAN</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                </MoveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="0"/>
+                    <A V="0"/>
+                    <B V="17.058" R="0.223858" M="2"/>
+                    <C V="28.43" R="0.223858" M="1"/>
+                    <D V="0"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="127" R="1" M="1"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="98.57" R="0.776142" M="1"/>
+                    <B V="0"/>
+                    <C V="127" R="1" M="1"/>
+                    <D V="17.058" R="0.223858" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="76.2" R="1" M="2"/>
+                    <A V="127" R="1" M="1"/>
+                    <B V="59.142" R="0.776142" M="2"/>
+                    <C V="98.57" R="0.776142" M="1"/>
+                    <D V="76.2" R="1" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="28.43" R="0.223858" M="1"/>
+                    <B V="76.2" R="1" M="2"/>
+                    <C V="0"/>
+                    <D V="59.142" R="0.776142" M="2"/>
+                </CurveTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="Ellipse" ID="126" Layer="2" NameU="Start" Name="Start">
+        <Transform>
+            <Width V="127"/>
+            <Height V="76.2"/>
+            <Angle V="0"/>
+            <GPinX V="592.5"/>
+            <GPinY V="550.801"/>
+            <LocPinX V="63.5" R="0.5" M="1"/>
+            <LocPinY V="38.1" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="4"/>
+            <FromLibId V="4"/>
+        </LevelData>
+        <CPoints>
+            <CPoint Name="Pt1" ID="1" Type="0">
+                <X V="0"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt2" ID="2" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="0"/>
+            </CPoint>
+            <CPoint Name="Pt3" ID="3" Type="0">
+                <X V="127" R="1" M="1"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt4" ID="4" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="76.2" R="1" M="2"/>
+            </CPoint>
+        </CPoints>
+        <Misc>
+            <ObjectType V="2"/>
+        </Misc>
+        <Properties>
+            <Prop ID="1" Type="4" Name="Cost" Label="Cost">
+                <Format V="#,###0.00" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+                <Unit V="CNY" U="STR"/>
+            </Prop>
+            <Prop ID="2" Type="3" Name="Duration" Label="Duration">
+                <Format V="[h]:[mm] &quot;eh:em&quot;" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+            <Prop ID="3" Type="0" Name="Resources" Label="Resources">
+                <Format V="@" U="STR"/>
+                <Value V="" U="STR"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+        </Properties>
+        <ShapeFormat QuickMask="51">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="512">
+                <Transform>
+                    <Width V="127" R="1" M="1"/>
+                    <Height V="76.2" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="63.5" R="0.5" M="1"/>
+                    <GPinY V="38.1" R="0.5" M="2"/>
+                    <LocPinX V="63.5" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="38.1" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="256" TabStop="80">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="9" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Margins Left="4" Right="4" Top="4" Bottom="4"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">KELOLA</tp>
+                        </pp>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">TUGAS</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                </MoveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="0"/>
+                    <A V="0"/>
+                    <B V="17.058" R="0.223858" M="2"/>
+                    <C V="28.43" R="0.223858" M="1"/>
+                    <D V="0"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="127" R="1" M="1"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="98.57" R="0.776142" M="1"/>
+                    <B V="0"/>
+                    <C V="127" R="1" M="1"/>
+                    <D V="17.058" R="0.223858" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="76.2" R="1" M="2"/>
+                    <A V="127" R="1" M="1"/>
+                    <B V="59.142" R="0.776142" M="2"/>
+                    <C V="98.57" R="0.776142" M="1"/>
+                    <D V="76.2" R="1" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="28.43" R="0.223858" M="1"/>
+                    <B V="76.2" R="1" M="2"/>
+                    <C V="0"/>
+                    <D V="59.142" R="0.776142" M="2"/>
+                </CurveTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="Ellipse" ID="127" Layer="2" NameU="Start" Name="Start">
+        <Transform>
+            <Width V="127"/>
+            <Height V="76.2"/>
+            <Angle V="0"/>
+            <GPinX V="592.5"/>
+            <GPinY V="645.801"/>
+            <LocPinX V="63.5" R="0.5" M="1"/>
+            <LocPinY V="38.1" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="4"/>
+            <FromLibId V="4"/>
+        </LevelData>
+        <CPoints>
+            <CPoint Name="Pt1" ID="1" Type="0">
+                <X V="0"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt2" ID="2" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="0"/>
+            </CPoint>
+            <CPoint Name="Pt3" ID="3" Type="0">
+                <X V="127" R="1" M="1"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt4" ID="4" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="76.2" R="1" M="2"/>
+            </CPoint>
+        </CPoints>
+        <Misc>
+            <ObjectType V="2"/>
+        </Misc>
+        <Properties>
+            <Prop ID="1" Type="4" Name="Cost" Label="Cost">
+                <Format V="#,###0.00" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+                <Unit V="CNY" U="STR"/>
+            </Prop>
+            <Prop ID="2" Type="3" Name="Duration" Label="Duration">
+                <Format V="[h]:[mm] &quot;eh:em&quot;" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+            <Prop ID="3" Type="0" Name="Resources" Label="Resources">
+                <Format V="@" U="STR"/>
+                <Value V="" U="STR"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+        </Properties>
+        <ShapeFormat QuickMask="51">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="512">
+                <Transform>
+                    <Width V="127" R="1" M="1"/>
+                    <Height V="76.2" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="63.5" R="0.5" M="1"/>
+                    <GPinY V="38.1" R="0.5" M="2"/>
+                    <LocPinX V="63.5" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="38.1" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="256" TabStop="80">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="9" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Margins Left="4" Right="4" Top="4" Bottom="4"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">KELOLA </tp>
+                        </pp>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">NILAI</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                </MoveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="0"/>
+                    <A V="0"/>
+                    <B V="17.058" R="0.223858" M="2"/>
+                    <C V="28.43" R="0.223858" M="1"/>
+                    <D V="0"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="127" R="1" M="1"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="98.57" R="0.776142" M="1"/>
+                    <B V="0"/>
+                    <C V="127" R="1" M="1"/>
+                    <D V="17.058" R="0.223858" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="76.2" R="1" M="2"/>
+                    <A V="127" R="1" M="1"/>
+                    <B V="59.142" R="0.776142" M="2"/>
+                    <C V="98.57" R="0.776142" M="1"/>
+                    <D V="76.2" R="1" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="28.43" R="0.223858" M="1"/>
+                    <B V="76.2" R="1" M="2"/>
+                    <C V="0"/>
+                    <D V="59.142" R="0.776142" M="2"/>
+                </CurveTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="ConnectLine" ID="131" Layer="2" NameU="ConnectLine" Name="ConnectLine">
+        <ConPoints>
+            <BeginX V="192" F="PNTX(Parent.LOCPNT(Shape104.PARPNT(Shape104.CPoints.X3,Shape104.CPoints.Y3)))"/>
+            <BeginY V="280.686" F="PNTY(Parent.LOCPNT(Shape104.PARPNT(Shape104.CPoints.X3,Shape104.CPoints.Y3)))"/>
+            <EndX V="529" F="PNTX(Parent.LOCPNT(Shape124.PARPNT(Shape124.CPoints.X1,Shape124.CPoints.Y1)))"/>
+            <EndY V="75.8008" F="PNTY(Parent.LOCPNT(Shape124.PARPNT(Shape124.CPoints.X1,Shape124.CPoints.Y1)))"/>
+        </ConPoints>
+        <Transform>
+            <Width V="337" F="EndX-BeginX"/>
+            <Height V="-204.885" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="360.5" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="178.244" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="168.5" R="0.5" M="1"/>
+            <LocPinY V="-102.443" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <BeginTag V="1" F="Shape104.XTrans"/>
+            <EndTag V="1" F="Shape124.XTrans"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="337"/>
+                    <Y V="-204.885"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="TRUE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Shape Type="ConnectLine" ID="135" Layer="2" NameU="ConnectLine" Name="ConnectLine">
+        <ConPoints>
+            <BeginX V="192" F="PNTX(Parent.LOCPNT(Shape101.PARPNT(Shape101.CPoints.X3,Shape101.CPoints.Y3)))"/>
+            <BeginY V="585.701" F="PNTY(Parent.LOCPNT(Shape101.PARPNT(Shape101.CPoints.X3,Shape101.CPoints.Y3)))"/>
+            <EndX V="530.068" F="PNTX(Parent.LOCPNT(Shape158.PARPNT(Shape158.CPoints.X1,Shape158.CPoints.Y1)))"/>
+            <EndY V="360.801" F="PNTY(Parent.LOCPNT(Shape158.PARPNT(Shape158.CPoints.X1,Shape158.CPoints.Y1)))"/>
+        </ConPoints>
+        <Transform>
+            <Width V="338.068" F="EndX-BeginX"/>
+            <Height V="-224.9" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="361.034" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="473.251" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="169.034" R="0.5" M="1"/>
+            <LocPinY V="-112.45" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <BeginTag V="1" F="Shape101.XTrans"/>
+            <EndTag V="1" F="Shape158.XTrans"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="338.068"/>
+                    <Y V="-224.9"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="TRUE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Shape Type="ConnectLine" ID="137" Layer="2" NameU="ConnectLine" Name="ConnectLine">
+        <ConPoints>
+            <BeginX V="192" F="PNTX(Parent.LOCPNT(Shape109.PARPNT(Shape109.CPoints.X3,Shape109.CPoints.Y3)))"/>
+            <BeginY V="926.701" F="PNTY(Parent.LOCPNT(Shape109.PARPNT(Shape109.CPoints.X3,Shape109.CPoints.Y3)))"/>
+            <EndX V="529" F="PNTX(Parent.LOCPNT(Shape116.PARPNT(Shape116.CPoints.X1,Shape116.CPoints.Y1)))"/>
+            <EndY V="740.801" F="PNTY(Parent.LOCPNT(Shape116.PARPNT(Shape116.CPoints.X1,Shape116.CPoints.Y1)))"/>
+        </ConPoints>
+        <Transform>
+            <Width V="337" F="EndX-BeginX"/>
+            <Height V="-185.9" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="360.5" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="833.751" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="168.5" R="0.5" M="1"/>
+            <LocPinY V="-92.95" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <BeginTag V="1" F="Shape109.XTrans"/>
+            <EndTag V="1" F="Shape116.XTrans"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="337"/>
+                    <Y V="-185.9"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="TRUE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Shape Type="ConnectLine" ID="141" Layer="2" NameU="ConnectLine" Name="ConnectLine">
+        <ConPoints>
+            <BeginX V="192" F="PNTX(Parent.LOCPNT(Shape101.PARPNT(Shape101.CPoints.X3,Shape101.CPoints.Y3)))"/>
+            <BeginY V="585.701" F="PNTY(Parent.LOCPNT(Shape101.PARPNT(Shape101.CPoints.X3,Shape101.CPoints.Y3)))"/>
+            <EndX V="533.569" F="PNTX(Parent.LOCPNT(Shape124.GeomCrossPt(0,3,0.813)))"/>
+            <EndY V="90.0189" F="PNTY(Parent.LOCPNT(Shape124.GeomCrossPt(0,3,0.813)))"/>
+        </ConPoints>
+        <Transform>
+            <Width V="341.569" F="EndX-BeginX"/>
+            <Height V="-495.682" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="362.785" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="337.86" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="170.785" R="0.5" M="1"/>
+            <LocPinY V="-247.841" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <BeginTag V="1" F="Shape101.XTrans"/>
+            <EndTag V="1" F="Shape124.XTrans"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="341.569"/>
+                    <Y V="-495.682"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="TRUE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Shape Type="ConnectLine" ID="142" Layer="2" NameU="ConnectLine" Name="ConnectLine">
+        <ConPoints>
+            <BeginX V="192" F="PNTX(Parent.LOCPNT(Shape109.PARPNT(Shape109.CPoints.X3,Shape109.CPoints.Y3)))"/>
+            <BeginY V="926.701" F="PNTY(Parent.LOCPNT(Shape109.PARPNT(Shape109.CPoints.X3,Shape109.CPoints.Y3)))"/>
+            <EndX V="543.049" F="PNTX(Parent.LOCPNT(Shape124.GeomCrossPt(0,3,0.645)))"/>
+            <EndY V="99.7042" F="PNTY(Parent.LOCPNT(Shape124.GeomCrossPt(0,3,0.645)))"/>
+        </ConPoints>
+        <Transform>
+            <Width V="351.049" F="EndX-BeginX"/>
+            <Height V="-826.997" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="367.525" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="513.202" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="175.525" R="0.5" M="1"/>
+            <LocPinY V="-413.498" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <BeginTag V="1" F="Shape109.XTrans"/>
+            <EndTag V="1" F="Shape124.XTrans"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="351.049"/>
+                    <Y V="-826.997"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="TRUE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Shape Type="ConnectLine" ID="143" Layer="2" NameU="ConnectLine" Name="ConnectLine">
+        <ConPoints>
+            <BeginX V="192" F="PNTX(Parent.LOCPNT(Shape104.PARPNT(Shape104.CPoints.X3,Shape104.CPoints.Y3)))"/>
+            <BeginY V="280.686" F="PNTY(Parent.LOCPNT(Shape104.PARPNT(Shape104.CPoints.X3,Shape104.CPoints.Y3)))"/>
+            <EndX V="529" F="PNTX(Parent.LOCPNT(Shape118.PARPNT(Shape118.CPoints.X1,Shape118.CPoints.Y1)))"/>
+            <EndY V="170.801" F="PNTY(Parent.LOCPNT(Shape118.PARPNT(Shape118.CPoints.X1,Shape118.CPoints.Y1)))"/>
+        </ConPoints>
+        <Transform>
+            <Width V="337" F="EndX-BeginX"/>
+            <Height V="-109.885" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="360.5" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="225.744" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="168.5" R="0.5" M="1"/>
+            <LocPinY V="-54.9427" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <BeginTag V="1" F="Shape104.XTrans"/>
+            <EndTag V="1" F="Shape118.XTrans"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="337"/>
+                    <Y V="-109.885"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="TRUE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Shape Type="ConnectLine" ID="144" Layer="2" NameU="ConnectLine" Name="ConnectLine">
+        <ConPoints>
+            <BeginX V="192" F="PNTX(Parent.LOCPNT(Shape101.PARPNT(Shape101.CPoints.X3,Shape101.CPoints.Y3)))"/>
+            <BeginY V="585.701" F="PNTY(Parent.LOCPNT(Shape101.PARPNT(Shape101.CPoints.X3,Shape101.CPoints.Y3)))"/>
+            <EndX V="530.068" F="PNTX(Parent.LOCPNT(Shape159.PARPNT(Shape159.CPoints.X1,Shape159.CPoints.Y1)))"/>
+            <EndY V="455.801" F="PNTY(Parent.LOCPNT(Shape159.PARPNT(Shape159.CPoints.X1,Shape159.CPoints.Y1)))"/>
+        </ConPoints>
+        <Transform>
+            <Width V="338.068" F="EndX-BeginX"/>
+            <Height V="-129.9" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="361.034" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="520.751" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="169.034" R="0.5" M="1"/>
+            <LocPinY V="-64.95" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <BeginTag V="1" F="Shape101.XTrans"/>
+            <EndTag V="1" F="Shape159.XTrans"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="338.068"/>
+                    <Y V="-129.9"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="TRUE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Shape Type="ConnectLine" ID="145" Layer="2" NameU="ConnectLine" Name="ConnectLine">
+        <ConPoints>
+            <BeginX V="192" F="PNTX(Parent.LOCPNT(Shape109.PARPNT(Shape109.CPoints.X3,Shape109.CPoints.Y3)))"/>
+            <BeginY V="926.701" F="PNTY(Parent.LOCPNT(Shape109.PARPNT(Shape109.CPoints.X3,Shape109.CPoints.Y3)))"/>
+            <EndX V="530.218" F="PNTX(Parent.LOCPNT(Shape125.GeomCrossPt(0,3,0.96727)))"/>
+            <EndY V="838.448" F="PNTY(Parent.LOCPNT(Shape125.GeomCrossPt(0,3,0.96727)))"/>
+        </ConPoints>
+        <Transform>
+            <Width V="338.218" F="EndX-BeginX"/>
+            <Height V="-88.2526" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="361.109" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="882.574" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="169.109" R="0.5" M="1"/>
+            <LocPinY V="-44.1263" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <BeginTag V="1" F="Shape109.XTrans"/>
+            <EndTag V="1" F="Shape125.XTrans"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="338.218"/>
+                    <Y V="-88.2526"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="TRUE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Shape Type="ConnectLine" ID="146" Layer="2" NameU="ConnectLine" Name="ConnectLine">
+        <ConPoints>
+            <BeginX V="192" F="PNTX(Parent.LOCPNT(Shape101.PARPNT(Shape101.CPoints.X3,Shape101.CPoints.Y3)))"/>
+            <BeginY V="585.701" F="PNTY(Parent.LOCPNT(Shape101.PARPNT(Shape101.CPoints.X3,Shape101.CPoints.Y3)))"/>
+            <EndX V="529" F="PNTX(Parent.LOCPNT(Shape126.PARPNT(Shape126.CPoints.X1,Shape126.CPoints.Y1)))"/>
+            <EndY V="550.801" F="PNTY(Parent.LOCPNT(Shape126.PARPNT(Shape126.CPoints.X1,Shape126.CPoints.Y1)))"/>
+        </ConPoints>
+        <Transform>
+            <Width V="337" F="EndX-BeginX"/>
+            <Height V="-34.9" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="360.5" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="568.251" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="168.5" R="0.5" M="1"/>
+            <LocPinY V="-17.45" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <BeginTag V="1" F="Shape101.XTrans"/>
+            <EndTag V="1" F="Shape126.XTrans"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="337"/>
+                    <Y V="-34.9"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="TRUE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Shape Type="ConnectLine" ID="147" Layer="2" NameU="ConnectLine" Name="ConnectLine">
+        <ConPoints>
+            <BeginX V="192" F="PNTX(Parent.LOCPNT(Shape109.PARPNT(Shape109.CPoints.X3,Shape109.CPoints.Y3)))"/>
+            <BeginY V="926.701" F="PNTY(Parent.LOCPNT(Shape109.PARPNT(Shape109.CPoints.X3,Shape109.CPoints.Y3)))"/>
+            <EndX V="529" F="PNTX(Parent.LOCPNT(Shape161.PARPNT(Shape161.CPoints.X1,Shape161.CPoints.Y1)))"/>
+            <EndY V="930.801" F="PNTY(Parent.LOCPNT(Shape161.PARPNT(Shape161.CPoints.X1,Shape161.CPoints.Y1)))"/>
+        </ConPoints>
+        <Transform>
+            <Width V="337" F="EndX-BeginX"/>
+            <Height V="4.1" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="360.5" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="928.751" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="168.5" R="0.5" M="1"/>
+            <LocPinY V="2.05" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <BeginTag V="1" F="Shape109.XTrans"/>
+            <EndTag V="1" F="Shape161.XTrans"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="337"/>
+                    <Y V="4.1"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="TRUE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Shape Type="ConnectLine" ID="148" Layer="2" NameU="ConnectLine" Name="ConnectLine">
+        <ConPoints>
+            <BeginX V="192" F="PNTX(Parent.LOCPNT(Shape101.PARPNT(Shape101.CPoints.X3,Shape101.CPoints.Y3)))"/>
+            <BeginY V="585.701" F="PNTY(Parent.LOCPNT(Shape101.PARPNT(Shape101.CPoints.X3,Shape101.CPoints.Y3)))"/>
+            <EndX V="529" F="PNTX(Parent.LOCPNT(Shape127.PARPNT(Shape127.CPoints.X1,Shape127.CPoints.Y1)))"/>
+            <EndY V="645.801" F="PNTY(Parent.LOCPNT(Shape127.PARPNT(Shape127.CPoints.X1,Shape127.CPoints.Y1)))"/>
+        </ConPoints>
+        <Transform>
+            <Width V="337" F="EndX-BeginX"/>
+            <Height V="60.1" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="360.5" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="615.751" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="168.5" R="0.5" M="1"/>
+            <LocPinY V="30.05" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <BeginTag V="1" F="Shape101.XTrans"/>
+            <EndTag V="1" F="Shape127.XTrans"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="337"/>
+                    <Y V="60.1"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="TRUE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Shape Type="ConnectLine" ID="149" Layer="2" NameU="ConnectLine" Name="ConnectLine">
+        <ConPoints>
+            <BeginX V="192" F="PNTX(Parent.LOCPNT(Shape109.PARPNT(Shape109.CPoints.X3,Shape109.CPoints.Y3)))"/>
+            <BeginY V="926.701" F="PNTY(Parent.LOCPNT(Shape109.PARPNT(Shape109.CPoints.X3,Shape109.CPoints.Y3)))"/>
+            <EndX V="537.954" F="PNTX(Parent.LOCPNT(Shape164.GeomCrossPt(0,0,0.272)))"/>
+            <EndY V="1007.11" F="PNTY(Parent.LOCPNT(Shape164.GeomCrossPt(0,0,0.272)))"/>
+        </ConPoints>
+        <Transform>
+            <Width V="345.954" F="EndX-BeginX"/>
+            <Height V="80.4066" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="364.977" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="966.904" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="172.977" R="0.5" M="1"/>
+            <LocPinY V="40.2033" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <BeginTag V="1" F="Shape109.XTrans"/>
+            <EndTag V="1" F="Shape164.XTrans"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="345.954"/>
+                    <Y V="80.4066"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="TRUE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Shape Type="ConnectLine" ID="151" Layer="2" NameU="ConnectLine" Name="ConnectLine">
+        <ConPoints>
+            <BeginX V="192" F="PNTX(Parent.LOCPNT(Shape104.PARPNT(Shape104.CPoints.X3,Shape104.CPoints.Y3)))"/>
+            <BeginY V="280.686" F="PNTY(Parent.LOCPNT(Shape104.PARPNT(Shape104.CPoints.X3,Shape104.CPoints.Y3)))"/>
+            <EndX V="547.732" F="PNTX(Parent.LOCPNT(Shape122.GeomCrossPt(0,0,0.409)))"/>
+            <EndY V="1096.08" F="PNTY(Parent.LOCPNT(Shape122.GeomCrossPt(0,0,0.409)))"/>
+        </ConPoints>
+        <Transform>
+            <Width V="355.732" F="EndX-BeginX"/>
+            <Height V="815.396" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="369.866" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="688.384" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="177.866" R="0.5" M="1"/>
+            <LocPinY V="407.698" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <BeginTag V="1" F="Shape104.XTrans"/>
+            <EndTag V="1" F="Shape122.XTrans"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="355.732"/>
+                    <Y V="815.396"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="TRUE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Shape Type="ConnectLine" ID="152" Layer="2" NameU="ConnectLine" Name="ConnectLine">
+        <ConPoints>
+            <BeginX V="192" F="PNTX(Parent.LOCPNT(Shape109.PARPNT(Shape109.CPoints.X3,Shape109.CPoints.Y3)))"/>
+            <BeginY V="926.701" F="PNTY(Parent.LOCPNT(Shape109.PARPNT(Shape109.CPoints.X3,Shape109.CPoints.Y3)))"/>
+            <EndX V="530.982" F="PNTX(Parent.LOCPNT(Shape122.GeomCrossPt(0,0,0.081)))"/>
+            <EndY V="1115.97" F="PNTY(Parent.LOCPNT(Shape122.GeomCrossPt(0,0,0.081)))"/>
+        </ConPoints>
+        <Transform>
+            <Width V="338.982" F="EndX-BeginX"/>
+            <Height V="189.27" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="361.491" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="1021.34" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="169.491" R="0.5" M="1"/>
+            <LocPinY V="94.635" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <BeginTag V="1" F="Shape109.XTrans"/>
+            <EndTag V="1" F="Shape122.XTrans"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="338.982"/>
+                    <Y V="189.27"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="TRUE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Shape Type="Ellipse" ID="153" Layer="2" NameU="Start" Name="Start">
+        <Transform>
+            <Width V="127"/>
+            <Height V="76.2"/>
+            <Angle V="0"/>
+            <GPinX V="592.5"/>
+            <GPinY V="265.801"/>
+            <LocPinX V="63.5" R="0.5" M="1"/>
+            <LocPinY V="38.1" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="4"/>
+            <FromLibId V="4"/>
+        </LevelData>
+        <CPoints>
+            <CPoint Name="Pt1" ID="1" Type="0">
+                <X V="0"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt2" ID="2" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="0"/>
+            </CPoint>
+            <CPoint Name="Pt3" ID="3" Type="0">
+                <X V="127" R="1" M="1"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt4" ID="4" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="76.2" R="1" M="2"/>
+            </CPoint>
+        </CPoints>
+        <Misc>
+            <ObjectType V="2"/>
+        </Misc>
+        <Properties>
+            <Prop ID="1" Type="4" Name="Cost" Label="Cost">
+                <Format V="#,###0.00" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+                <Unit V="CNY" U="STR"/>
+            </Prop>
+            <Prop ID="2" Type="3" Name="Duration" Label="Duration">
+                <Format V="[h]:[mm] &quot;eh:em&quot;" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+            <Prop ID="3" Type="0" Name="Resources" Label="Resources">
+                <Format V="@" U="STR"/>
+                <Value V="" U="STR"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+        </Properties>
+        <ShapeFormat QuickMask="51">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="512">
+                <Transform>
+                    <Width V="127" R="1" M="1"/>
+                    <Height V="76.2" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="63.5" R="0.5" M="1"/>
+                    <GPinY V="38.1" R="0.5" M="2"/>
+                    <LocPinX V="63.5" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="38.1" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="256" TabStop="80">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="10" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Margins Left="4" Right="4" Top="4" Bottom="4"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">KELOLA</tp>
+                        </pp>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">KELAS</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                </MoveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="0"/>
+                    <A V="0"/>
+                    <B V="17.058" R="0.223858" M="2"/>
+                    <C V="28.43" R="0.223858" M="1"/>
+                    <D V="0"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="127" R="1" M="1"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="98.57" R="0.776142" M="1"/>
+                    <B V="0"/>
+                    <C V="127" R="1" M="1"/>
+                    <D V="17.058" R="0.223858" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="76.2" R="1" M="2"/>
+                    <A V="127" R="1" M="1"/>
+                    <B V="59.142" R="0.776142" M="2"/>
+                    <C V="98.57" R="0.776142" M="1"/>
+                    <D V="76.2" R="1" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="28.43" R="0.223858" M="1"/>
+                    <B V="76.2" R="1" M="2"/>
+                    <C V="0"/>
+                    <D V="59.142" R="0.776142" M="2"/>
+                </CurveTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="ConnectLine" ID="154" Layer="2" NameU="ConnectLine" Name="ConnectLine">
+        <ConPoints>
+            <BeginX V="192" F="PNTX(Parent.LOCPNT(Shape104.PARPNT(Shape104.CPoints.X3,Shape104.CPoints.Y3)))"/>
+            <BeginY V="280.686" F="PNTY(Parent.LOCPNT(Shape104.PARPNT(Shape104.CPoints.X3,Shape104.CPoints.Y3)))"/>
+            <EndX V="529" F="PNTX(Parent.LOCPNT(Shape153.PARPNT(Shape153.CPoints.X1,Shape153.CPoints.Y1)))"/>
+            <EndY V="265.801" F="PNTY(Parent.LOCPNT(Shape153.PARPNT(Shape153.CPoints.X1,Shape153.CPoints.Y1)))"/>
+        </ConPoints>
+        <Transform>
+            <Width V="337" F="EndX-BeginX"/>
+            <Height V="-14.8854" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="360.5" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="273.244" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="168.5" R="0.5" M="1"/>
+            <LocPinY V="-7.44272" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <BeginTag V="1" F="Shape104.XTrans"/>
+            <EndTag V="1" F="Shape153.XTrans"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="337"/>
+                    <Y V="-14.8854"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="TRUE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Shape Type="Ellipse" ID="158" Layer="2" NameU="Start" Name="Start">
+        <Transform>
+            <Width V="127"/>
+            <Height V="76.2"/>
+            <Angle V="0"/>
+            <GPinX V="593.568"/>
+            <GPinY V="360.801"/>
+            <LocPinX V="63.5" R="0.5" M="1"/>
+            <LocPinY V="38.1" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="4"/>
+            <FromLibId V="4"/>
+        </LevelData>
+        <CPoints>
+            <CPoint Name="Pt1" ID="1" Type="0">
+                <X V="0"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt2" ID="2" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="0"/>
+            </CPoint>
+            <CPoint Name="Pt3" ID="3" Type="0">
+                <X V="127" R="1" M="1"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt4" ID="4" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="76.2" R="1" M="2"/>
+            </CPoint>
+        </CPoints>
+        <Misc>
+            <ObjectType V="2"/>
+        </Misc>
+        <Properties>
+            <Prop ID="1" Type="4" Name="Cost" Label="Cost">
+                <Format V="#,###0.00" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+                <Unit V="CNY" U="STR"/>
+            </Prop>
+            <Prop ID="2" Type="3" Name="Duration" Label="Duration">
+                <Format V="[h]:[mm] &quot;eh:em&quot;" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+            <Prop ID="3" Type="0" Name="Resources" Label="Resources">
+                <Format V="@" U="STR"/>
+                <Value V="" U="STR"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+        </Properties>
+        <ShapeFormat QuickMask="51">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="512">
+                <Transform>
+                    <Width V="127" R="1" M="1"/>
+                    <Height V="76.2" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="63.5" R="0.5" M="1"/>
+                    <GPinY V="38.1" R="0.5" M="2"/>
+                    <LocPinX V="63.5" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="38.1" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="256" TabStop="80">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="10" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Margins Left="4" Right="4" Top="4" Bottom="4"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">KELOLA</tp>
+                        </pp>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">MATERI</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                </MoveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="0"/>
+                    <A V="0"/>
+                    <B V="17.058" R="0.223858" M="2"/>
+                    <C V="28.43" R="0.223858" M="1"/>
+                    <D V="0"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="127" R="1" M="1"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="98.57" R="0.776142" M="1"/>
+                    <B V="0"/>
+                    <C V="127" R="1" M="1"/>
+                    <D V="17.058" R="0.223858" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="76.2" R="1" M="2"/>
+                    <A V="127" R="1" M="1"/>
+                    <B V="59.142" R="0.776142" M="2"/>
+                    <C V="98.57" R="0.776142" M="1"/>
+                    <D V="76.2" R="1" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="28.43" R="0.223858" M="1"/>
+                    <B V="76.2" R="1" M="2"/>
+                    <C V="0"/>
+                    <D V="59.142" R="0.776142" M="2"/>
+                </CurveTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="Ellipse" ID="159" Layer="2" NameU="Start" Name="Start">
+        <Transform>
+            <Width V="127"/>
+            <Height V="76.2"/>
+            <Angle V="0"/>
+            <GPinX V="593.568"/>
+            <GPinY V="455.801"/>
+            <LocPinX V="63.5" R="0.5" M="1"/>
+            <LocPinY V="38.1" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="4"/>
+            <FromLibId V="4"/>
+        </LevelData>
+        <CPoints>
+            <CPoint Name="Pt1" ID="1" Type="0">
+                <X V="0"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt2" ID="2" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="0"/>
+            </CPoint>
+            <CPoint Name="Pt3" ID="3" Type="0">
+                <X V="127" R="1" M="1"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt4" ID="4" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="76.2" R="1" M="2"/>
+            </CPoint>
+        </CPoints>
+        <Misc>
+            <ObjectType V="2"/>
+        </Misc>
+        <Properties>
+            <Prop ID="1" Type="4" Name="Cost" Label="Cost">
+                <Format V="#,###0.00" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+                <Unit V="CNY" U="STR"/>
+            </Prop>
+            <Prop ID="2" Type="3" Name="Duration" Label="Duration">
+                <Format V="[h]:[mm] &quot;eh:em&quot;" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+            <Prop ID="3" Type="0" Name="Resources" Label="Resources">
+                <Format V="@" U="STR"/>
+                <Value V="" U="STR"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+        </Properties>
+        <ShapeFormat QuickMask="51">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="512">
+                <Transform>
+                    <Width V="127" R="1" M="1"/>
+                    <Height V="76.2" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="63.5" R="0.5" M="1"/>
+                    <GPinY V="38.1" R="0.5" M="2"/>
+                    <LocPinX V="63.5" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="38.1" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="256" TabStop="80">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="9" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Margins Left="4" Right="4" Top="4" Bottom="4"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">KELOLA</tp>
+                        </pp>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">LATIHAN</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                </MoveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="0"/>
+                    <A V="0"/>
+                    <B V="17.058" R="0.223858" M="2"/>
+                    <C V="28.43" R="0.223858" M="1"/>
+                    <D V="0"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="127" R="1" M="1"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="98.57" R="0.776142" M="1"/>
+                    <B V="0"/>
+                    <C V="127" R="1" M="1"/>
+                    <D V="17.058" R="0.223858" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="76.2" R="1" M="2"/>
+                    <A V="127" R="1" M="1"/>
+                    <B V="59.142" R="0.776142" M="2"/>
+                    <C V="98.57" R="0.776142" M="1"/>
+                    <D V="76.2" R="1" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="28.43" R="0.223858" M="1"/>
+                    <B V="76.2" R="1" M="2"/>
+                    <C V="0"/>
+                    <D V="59.142" R="0.776142" M="2"/>
+                </CurveTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="Ellipse" ID="161" Layer="2" NameU="Start" Name="Start">
+        <Transform>
+            <Width V="127"/>
+            <Height V="76.2"/>
+            <Angle V="0"/>
+            <GPinX V="592.5"/>
+            <GPinY V="930.801"/>
+            <LocPinX V="63.5" R="0.5" M="1"/>
+            <LocPinY V="38.1" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="4"/>
+            <FromLibId V="4"/>
+        </LevelData>
+        <CPoints>
+            <CPoint Name="Pt1" ID="1" Type="0">
+                <X V="0"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt2" ID="2" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="0"/>
+            </CPoint>
+            <CPoint Name="Pt3" ID="3" Type="0">
+                <X V="127" R="1" M="1"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt4" ID="4" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="76.2" R="1" M="2"/>
+            </CPoint>
+        </CPoints>
+        <Misc>
+            <ObjectType V="2"/>
+        </Misc>
+        <Properties>
+            <Prop ID="1" Type="4" Name="Cost" Label="Cost">
+                <Format V="#,###0.00" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+                <Unit V="CNY" U="STR"/>
+            </Prop>
+            <Prop ID="2" Type="3" Name="Duration" Label="Duration">
+                <Format V="[h]:[mm] &quot;eh:em&quot;" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+            <Prop ID="3" Type="0" Name="Resources" Label="Resources">
+                <Format V="@" U="STR"/>
+                <Value V="" U="STR"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+        </Properties>
+        <ShapeFormat QuickMask="51">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="512">
+                <Transform>
+                    <Width V="127" R="1" M="1"/>
+                    <Height V="76.2" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="63.5" R="0.5" M="1"/>
+                    <GPinY V="38.1" R="0.5" M="2"/>
+                    <LocPinX V="63.5" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="38.1" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="256" TabStop="80">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="9" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Margins Left="4" Right="4" Top="4" Bottom="4"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">KERJAKAN</tp>
+                        </pp>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">TUGAS</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                </MoveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="0"/>
+                    <A V="0"/>
+                    <B V="17.058" R="0.223858" M="2"/>
+                    <C V="28.43" R="0.223858" M="1"/>
+                    <D V="0"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="127" R="1" M="1"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="98.57" R="0.776142" M="1"/>
+                    <B V="0"/>
+                    <C V="127" R="1" M="1"/>
+                    <D V="17.058" R="0.223858" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="76.2" R="1" M="2"/>
+                    <A V="127" R="1" M="1"/>
+                    <B V="59.142" R="0.776142" M="2"/>
+                    <C V="98.57" R="0.776142" M="1"/>
+                    <D V="76.2" R="1" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="28.43" R="0.223858" M="1"/>
+                    <B V="76.2" R="1" M="2"/>
+                    <C V="0"/>
+                    <D V="59.142" R="0.776142" M="2"/>
+                </CurveTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="Ellipse" ID="164" Layer="2" NameU="Start" Name="Start">
+        <Transform>
+            <Width V="127"/>
+            <Height V="76.2"/>
+            <Angle V="0"/>
+            <GPinX V="592.5"/>
+            <GPinY V="1026.63"/>
+            <LocPinX V="63.5" R="0.5" M="1"/>
+            <LocPinY V="38.1" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="4"/>
+            <FromLibId V="4"/>
+        </LevelData>
+        <CPoints>
+            <CPoint Name="Pt1" ID="1" Type="0">
+                <X V="0"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt2" ID="2" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="0"/>
+            </CPoint>
+            <CPoint Name="Pt3" ID="3" Type="0">
+                <X V="127" R="1" M="1"/>
+                <Y V="38.1" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt4" ID="4" Type="0">
+                <X V="63.5" R="0.5" M="1"/>
+                <Y V="76.2" R="1" M="2"/>
+            </CPoint>
+        </CPoints>
+        <Misc>
+            <ObjectType V="2"/>
+        </Misc>
+        <Properties>
+            <Prop ID="1" Type="4" Name="Cost" Label="Cost">
+                <Format V="#,###0.00" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+                <Unit V="CNY" U="STR"/>
+            </Prop>
+            <Prop ID="2" Type="3" Name="Duration" Label="Duration">
+                <Format V="[h]:[mm] &quot;eh:em&quot;" U="STR"/>
+                <Value V="0"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+            <Prop ID="3" Type="0" Name="Resources" Label="Resources">
+                <Format V="@" U="STR"/>
+                <Value V="" U="STR"/>
+                <Invisible V="0" F="FALSE"/>
+            </Prop>
+        </Properties>
+        <ShapeFormat QuickMask="51">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff101843" ThemeColor="5" Shade="90" Ref="#4155c6"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="512">
+                <Transform>
+                    <Width V="127" R="1" M="1"/>
+                    <Height V="76.2" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="63.5" R="0.5" M="1"/>
+                    <GPinY V="38.1" R="0.5" M="2"/>
+                    <LocPinX V="63.5" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="38.1" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="256" TabStop="80">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="9" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Margins Left="4" Right="4" Top="4" Bottom="4"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0"> LIHAT</tp>
+                        </pp>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">NILAI</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                </MoveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="0"/>
+                    <A V="0"/>
+                    <B V="17.058" R="0.223858" M="2"/>
+                    <C V="28.43" R="0.223858" M="1"/>
+                    <D V="0"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="127" R="1" M="1"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="98.57" R="0.776142" M="1"/>
+                    <B V="0"/>
+                    <C V="127" R="1" M="1"/>
+                    <D V="17.058" R="0.223858" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="63.5" R="0.5" M="1"/>
+                    <Y V="76.2" R="1" M="2"/>
+                    <A V="127" R="1" M="1"/>
+                    <B V="59.142" R="0.776142" M="2"/>
+                    <C V="98.57" R="0.776142" M="1"/>
+                    <D V="76.2" R="1" M="2"/>
+                </CurveTo>
+                <CurveTo>
+                    <X V="0"/>
+                    <Y V="38.1" R="0.5" M="2"/>
+                    <A V="28.43" R="0.223858" M="1"/>
+                    <B V="76.2" R="1" M="2"/>
+                    <C V="0"/>
+                    <D V="59.142" R="0.776142" M="2"/>
+                </CurveTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="ConnectLine" ID="170" Layer="2" NameU="ConnectLine" Name="ConnectLine">
+        <ConPoints>
+            <BeginX V="192" F="PNTX(Parent.LOCPNT(Shape101.PARPNT(Shape101.CPoints.X3,Shape101.CPoints.Y3)))"/>
+            <BeginY V="585.701" F="PNTY(Parent.LOCPNT(Shape101.PARPNT(Shape101.CPoints.X3,Shape101.CPoints.Y3)))"/>
+            <EndX V="536.115" F="PNTX(Parent.LOCPNT(Shape122.GeomCrossPt(0,0,0.218)))"/>
+            <EndY V="1106.2" F="PNTY(Parent.LOCPNT(Shape122.GeomCrossPt(0,0,0.218)))"/>
+        </ConPoints>
+        <Transform>
+            <Width V="344.115" F="EndX-BeginX"/>
+            <Height V="520.501" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="364.058" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="845.951" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="172.058" R="0.5" M="1"/>
+            <LocPinY V="260.251" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <BeginTag V="1" F="Shape101.XTrans"/>
+            <EndTag V="1" F="Shape122.XTrans"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="344.115"/>
+                    <Y V="520.501"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="TRUE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Connects>
+        <Connect FromShape="131" FromPart="9" FromName="" ToShape="104" ToPart="103" ToName="Pt3"/>
+        <Connect FromShape="131" FromPart="12" FromName="" ToShape="124" ToPart="101" ToName="Pt1"/>
+        <Connect FromShape="135" FromPart="9" FromName="" ToShape="101" ToPart="103" ToName="Pt3"/>
+        <Connect FromShape="135" FromPart="12" FromName="" ToShape="158" ToPart="101" ToName="Pt1"/>
+        <Connect FromShape="137" FromPart="9" FromName="" ToShape="109" ToPart="103" ToName="Pt3"/>
+        <Connect FromShape="137" FromPart="12" FromName="" ToShape="116" ToPart="101" ToName="Pt1"/>
+        <Connect FromShape="141" FromPart="9" FromName="" ToShape="101" ToPart="103" ToName="Pt3"/>
+        <Connect FromShape="141" FromPart="12" FromName="" ToShape="124" ToPart="5" ToName="0?3?0.813"/>
+        <Connect FromShape="142" FromPart="9" FromName="" ToShape="109" ToPart="103" ToName="Pt3"/>
+        <Connect FromShape="142" FromPart="12" FromName="" ToShape="124" ToPart="5" ToName="0?3?0.645"/>
+        <Connect FromShape="143" FromPart="9" FromName="" ToShape="104" ToPart="103" ToName="Pt3"/>
+        <Connect FromShape="143" FromPart="12" FromName="" ToShape="118" ToPart="101" ToName="Pt1"/>
+        <Connect FromShape="144" FromPart="9" FromName="" ToShape="101" ToPart="103" ToName="Pt3"/>
+        <Connect FromShape="144" FromPart="12" FromName="" ToShape="159" ToPart="101" ToName="Pt1"/>
+        <Connect FromShape="145" FromPart="9" FromName="" ToShape="109" ToPart="103" ToName="Pt3"/>
+        <Connect FromShape="145" FromPart="12" FromName="" ToShape="125" ToPart="5" ToName="0?3?0.96727"/>
+        <Connect FromShape="146" FromPart="9" FromName="" ToShape="101" ToPart="103" ToName="Pt3"/>
+        <Connect FromShape="146" FromPart="12" FromName="" ToShape="126" ToPart="101" ToName="Pt1"/>
+        <Connect FromShape="147" FromPart="9" FromName="" ToShape="109" ToPart="103" ToName="Pt3"/>
+        <Connect FromShape="147" FromPart="12" FromName="" ToShape="161" ToPart="101" ToName="Pt1"/>
+        <Connect FromShape="148" FromPart="9" FromName="" ToShape="101" ToPart="103" ToName="Pt3"/>
+        <Connect FromShape="148" FromPart="12" FromName="" ToShape="127" ToPart="101" ToName="Pt1"/>
+        <Connect FromShape="149" FromPart="9" FromName="" ToShape="109" ToPart="103" ToName="Pt3"/>
+        <Connect FromShape="149" FromPart="12" FromName="" ToShape="164" ToPart="5" ToName="0?0?0.272"/>
+        <Connect FromShape="151" FromPart="9" FromName="" ToShape="104" ToPart="103" ToName="Pt3"/>
+        <Connect FromShape="151" FromPart="12" FromName="" ToShape="122" ToPart="5" ToName="0?0?0.409"/>
+        <Connect FromShape="152" FromPart="9" FromName="" ToShape="109" ToPart="103" ToName="Pt3"/>
+        <Connect FromShape="152" FromPart="12" FromName="" ToShape="122" ToPart="5" ToName="0?0?0.081"/>
+        <Connect FromShape="154" FromPart="9" FromName="" ToShape="104" ToPart="103" ToName="Pt3"/>
+        <Connect FromShape="154" FromPart="12" FromName="" ToShape="153" ToPart="101" ToName="Pt1"/>
+        <Connect FromShape="170" FromPart="9" FromName="" ToShape="101" ToPart="103" ToName="Pt3"/>
+        <Connect FromShape="170" FromPart="12" FromName="" ToShape="122" ToPart="5" ToName="0?0?0.218"/>
+    </Connects>
+</Page>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document OS="Win" Version="12.6.0" DocGuid="{550983dd-796f-4417-87a4-9654fe087a50}">
+    <DocConfig>
+        <Solution V="501"/>
+        <SolMask V="0"/>
+        <UpdatePageName V="FALSE"/>
+        <ShowGrid V="TRUE"/>
+        <ShowRuler V="TRUE"/>
+        <ShowGuideline V="TRUE"/>
+        <ShowPageBreak V="TRUE"/>
+        <OrgAutoLayout V="TRUE"/>
+        <mmAutoLayout V="TRUE"/>
+        <mmLockCon V="TRUE"/>
+        <IgnoreDefCntStyle V="FALSE"/>
+        <IgnoreDefFont V="FALSE"/>
+        <ElectricalCrossStyle V="0"/>
+    </DocConfig>
+    <Stencils>
+        <Stencil Path="14"/>
+        <Stencil Path="4"/>
+    </Stencils>
+    <ActivePageIndex V="0"/>
+    <Pages V="1"/>
+    <Dpi V="1"/>
+    <ScreenWidth V="1366"/>
+    <ScreenHeight V="768"/>
+    <Platform V="desk"/>
+    <CreatedDate V="2026-06-10 13:25:53"/>
+    <Creator V="Masuk"/>
+    <ModifiedDate V="2026-06-10 21:25:58"/>
+    <Modifier V="Masuk"/>
+    <CloneID V="0"/>
+    <ModifiedFromClone V="TRUE"/>
+</Document>

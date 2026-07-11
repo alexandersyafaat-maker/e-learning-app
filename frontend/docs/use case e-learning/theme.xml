@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Themes>
+    <Theme Name="General" ID="36">
+        <ThemeColor Name="Novel" Shadow="#21000000" ID="83">
+            <ColorScheme Accent1="#ff4ed7c5" Accent5="#ffffcc53" Accent4="#ffff7e79" Accent8="#fffe9d17" Accent3="#ff4155c6" Accent6="#ff8dc0ff" Accent7="#ff7991ff" Accent2="#ff467dfe"/>
+            <ColorScheme Accent1="#ffff6863" Accent5="#ff4155c6" Accent4="#ff467dfe" Accent8="#ff7991ff" Accent3="#ff4ed7c5" Accent6="#ffff7e79" Accent7="#ffffcc53" Accent2="#ff00399d"/>
+        </ThemeColor>
+        <ThemeEffect Name="new Theme1" ID="36">
+            <ShapeFormat QuickMask="-1">
+                <FillFormat Type="Solid">
+                    <Color ThemeColor="1" V="#ffffffff"/>
+                </FillFormat>
+                <LineFormat>
+                    <LineWeight V="1.66667"/>
+                    <LineCap V="Flat"/>
+                    <LinePattern ID="1"/>
+                    <BeginArrow ID="0" Size="4"/>
+                    <EndArrow ID="0" Size="4"/>
+                    <LineFill Type="Solid">
+                        <Color ThemeColor="5" Shade="50" V="#ff6f6f6f" Ref="#999999"/>
+                    </LineFill>
+                </LineFormat>
+                <EffectFormat>
+                    <Shadow Mode="0"/>
+                </EffectFormat>
+            </ShapeFormat>
+            <ShapeFormat QuickMask="-1">
+                <FillFormat Type="Solid">
+                    <Color ThemeColor="5" Tint="80" V="#ffefefef" Ref="#999999"/>
+                </FillFormat>
+                <LineFormat>
+                    <LineWeight V="1"/>
+                    <LineCap V="Flat"/>
+                    <LinePattern ID="1"/>
+                    <BeginArrow ID="0" Size="4"/>
+                    <EndArrow ID="0" Size="4"/>
+                    <LineFill Type="Solid">
+                        <Color ThemeColor="5" V="#ff999999"/>
+                    </LineFill>
+                </LineFormat>
+                <EffectFormat>
+                    <Shadow Mode="0"/>
+                </EffectFormat>
+            </ShapeFormat>
+            <ShapeFormat QuickMask="-1">
+                <FillFormat Type="Solid">
+                    <Color ThemeColor="5" Tint="80" V="#ffefefef" Ref="#999999"/>
+                </FillFormat>
+                <LineFormat>
+                    <LineWeight V="3"/>
+                    <LineCap V="Flat"/>
+                    <LinePattern ID="1"/>
+                    <BeginArrow ID="0" Size="4"/>
+                    <EndArrow ID="0" Size="4"/>
+                    <LineFill Type="Solid">
+                        <Color ThemeColor="5" Tint="80" V="#ffefefef" Ref="#999999"/>
+                    </LineFill>
+                </LineFormat>
+                <EffectFormat>
+                    <Shadow Mode="0"/>
+                </EffectFormat>
+            </ShapeFormat>
+            <ShapeFormat QuickMask="-1">
+                <FillFormat Type="Solid">
+                    <Color V="#ffffffff"/>
+                </FillFormat>
+                <LineFormat>
+                    <LineWeight V="1"/>
+                    <LineCap V="Flat"/>
+                    <LinePattern ID="1"/>
+                    <BeginArrow ID="0" Size="4"/>
+                    <EndArrow ID="0" Size="4"/>
+                    <LineFill Type="Solid">
+                        <Color ThemeColor="5" Shade="90" V="#ff323232" Ref="#999999"/>
+                    </LineFill>
+                </LineFormat>
+                <EffectFormat>
+                    <Shadow Mode="0"/>
+                </EffectFormat>
+            </ShapeFormat>
+            <ShapeFormat QuickMask="-1">
+                <FillFormat Type="Solid">
+                    <Color ThemeColor="5" Tint="60" V="#ffdedede" Ref="#999999"/>
+                </FillFormat>
+                <LineFormat>
+                    <LineWeight V="2.33333"/>
+                    <LineCap V="Flat"/>
+                    <LinePattern ID="1"/>
+                    <BeginArrow ID="0" Size="4"/>
+                    <EndArrow ID="0" Size="4"/>
+                    <LineFill Type="Solid">
+                        <Color ThemeColor="5" Shade="70" V="#ff575757" Ref="#999999"/>
+                    </LineFill>
+                </LineFormat>
+                <EffectFormat>
+                    <Shadow Mode="0"/>
+                </EffectFormat>
+            </ShapeFormat>
+            <ShapeFormat QuickMask="-1">
+                <FillFormat Type="Solid">
+                    <Color ThemeColor="5" Shade="80" V="#ff474747" Ref="#999999"/>
+                </FillFormat>
+                <LineFormat>
+                    <LineWeight V="1"/>
+                    <LineCap V="Flat"/>
+                    <LinePattern ID="1"/>
+                    <BeginArrow ID="0" Size="4"/>
+                    <EndArrow ID="0" Size="4"/>
+                    <LineFill Type="Solid">
+                        <Color ThemeColor="5" Shade="80" V="#ff474747" Ref="#999999"/>
+                    </LineFill>
+                </LineFormat>
+                <EffectFormat>
+                    <Shadow Mode="0"/>
+                </EffectFormat>
+            </ShapeFormat>
+            <FontColor>
+                <Color V="#ff191919"/>
+                <Color V="#ff191919"/>
+                <Color V="#ff191919"/>
+                <Color V="#ff191919"/>
+                <Color V="#ff191919"/>
+                <Color V="#ffffffff"/>
+                <Color V="#ff191919"/>
+                <Color V="#ff191919"/>
+            </FontColor>
+        </ThemeEffect>
+        <ThemeConnector Name="General 1" ID="54">
+            <ConnectorScheme>
+                <LineFormat>
+                    <LineWeight V="1"/>
+                    <LineCap V="Flat"/>
+                    <LinePattern ID="1"/>
+                    <BeginArrow ID="0" Size="3"/>
+                    <EndArrow ID="4" Size="3"/>
+                    <LineFill Type="Solid">
+                        <Color ThemeColor="2" Tint="1" V="#ff191919" Ref="#000"/>
+                    </LineFill>
+                </LineFormat>
+                <EffectFormat>
+                    <Shadow Mode="0"/>
+                </EffectFormat>
+            </ConnectorScheme>
+        </ThemeConnector>
+        <ThemeText VAlign="Center" TabStop="80" Name="Arial" ID="3" TextFormatMask="0">
+            <Color V="#ff000000"/>
+            <Character Family="Arial" Color="#ffffff" IX="0" Size="12"/>
+            <Paragraph Align="4" IX="0" IndLeft="0" SpLine="100" IndFirst="0" IndRight="0"/>
+            <Margins Left="4" Bottom="4" Right="4" Top="4"/>
+            <FontSchemeLst>
+                <FontScheme Flag="0" FontName="Arial" FontSize="12">
+                    <Color V="#ff000000"/>
+                </FontScheme>
+                <FontScheme Flag="0" FontName="Arial" FontSize="12">
+                    <Color V="#ff000000"/>
+                </FontScheme>
+                <FontScheme Flag="0" FontName="Arial" FontSize="12">
+                    <Color V="#ff000000"/>
+                </FontScheme>
+                <FontScheme Flag="0" FontName="Arial" FontSize="12">
+                    <Color V="#ff000000"/>
+                </FontScheme>
+                <FontScheme Flag="0" FontName="Arial" FontSize="12">
+                    <Color V="#ff000000"/>
+                </FontScheme>
+                <FontScheme Flag="1" FontName="Arial" FontSize="12">
+                    <Color V="#ff000000"/>
+                </FontScheme>
+                <FontScheme Flag="0" FontName="Arial" FontSize="12">
+                    <Color V="#ff000000"/>
+                </FontScheme>
+                <FontScheme Flag="0" FontName="Arial" FontSize="12">
+                    <Color V="#ff000000"/>
+                </FontScheme>
+            </FontSchemeLst>
+        </ThemeText>
+    </Theme>
+</Themes>

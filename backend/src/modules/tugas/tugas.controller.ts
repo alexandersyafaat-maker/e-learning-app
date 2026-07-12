@@ -63,7 +63,13 @@ export const listSubmisiController = asyncHandler(async (req: Request, res: Resp
 });
 
 export const cekSubmisiController = asyncHandler(async (req: Request, res: Response) => {
-  sendSuccess(res, await cekSubmisiSiswa(req.params.id, req.params.siswaId));
+  sendSuccess(
+    res,
+    await cekSubmisiSiswa(req.params.id, req.params.siswaId, {
+      userId: req.user!.userId,
+      role: req.user!.role,
+    }),
+  );
 });
 
 export const submitTugasController = asyncHandler(async (req: Request, res: Response) => {

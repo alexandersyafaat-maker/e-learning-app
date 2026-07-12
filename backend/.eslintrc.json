@@ -26,5 +26,5 @@
     "node": true,
     "es2022": true
   },
-  "ignorePatterns": ["dist/", "node_modules/", "jest.config.ts"]
+  "ignorePatterns": ["dist/", "node_modules/", "jest.config.ts", "**/*.test.ts", "**/*.spec.ts"]
 }

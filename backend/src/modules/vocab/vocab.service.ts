@@ -97,6 +97,9 @@ export async function submitReviewService(input: ReviewInput, actorSiswaId: stri
   const card = await findCardById(input.cardId);
   if (!card) throw AppError.notFound('VocabCard');
 
+  const kelasIdSiswa = await findKelasIdBySiswaId(input.siswaId);
+  if (kelasIdSiswa !== card.kelasId) throw AppError.notInClass();
+
   const existingProgress = await findProgressByCard(input.cardId, input.siswaId);
 
   const prev = existingProgress

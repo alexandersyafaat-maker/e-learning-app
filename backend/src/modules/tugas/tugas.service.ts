@@ -109,9 +109,17 @@ export async function listTugasSiswa(query: TugasQuery) {
   return findTugasWithStatus(kelasId, query.siswaId);
 }
 
-export async function cekSubmisiSiswa(tugasId: string, siswaId: string) {
+export async function cekSubmisiSiswa(
+  tugasId: string,
+  siswaId: string,
+  actor: { userId: string; role: 'ADMIN' | 'GURU' | 'SISWA' },
+) {
   const tugas = await findTugasById(tugasId);
   if (!tugas) throw AppError.notFound('Tugas');
+
+  if (actor.role === 'SISWA' && actor.userId !== siswaId) throw AppError.forbidden();
+  if (actor.role === 'GURU' && tugas.guruId !== actor.userId) throw AppError.forbidden();
+
   const submisi = await findSubmisiBySiswa(tugasId, siswaId);
   return submisi ? submisi.toJSON() : null;
 }
@@ -125,6 +133,9 @@ export async function submitTugasService(
 
   const tugas = await findTugasById(tugasId);
   if (!tugas) throw AppError.notFound('Tugas');
+
+  const kelasIdSiswa = await findKelasIdBySiswaId(input.siswaId);
+  if (kelasIdSiswa !== tugas.kelasId) throw AppError.notInClass();
 
   if (tugas.deadline && new Date() > tugas.deadline) throw AppError.deadlinePassed();
 

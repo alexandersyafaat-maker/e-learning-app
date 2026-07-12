@@ -1,6 +1,6 @@
 import { AppError } from '@/utils/AppError';
 import { findKelasById } from '@/modules/kelas/kelas.repository';
-import { findKelasIdBySiswaId } from '@/modules/akun/akun.repository';
+import { findKelasIdBySiswaId, findUserById } from '@/modules/akun/akun.repository';
 import { createZoomMeeting, deleteZoomMeeting } from '@/lib/zoom.client';
 import { CreatePertemuanInput, PertemuanQuery } from '@/modules/pertemuan/pertemuan.types';
 import {
@@ -42,6 +42,8 @@ export async function createPertemuanService(input: CreatePertemuanInput, actorG
   const kelas = await findKelasById(input.kelasId);
   if (!kelas) throw AppError.notFound('Kelas');
 
+  const guru = await findUserById(input.guruId);
+
   const meeting = await createZoomMeeting({
     topic: input.judul,
     startTime: input.jadwal,
@@ -65,7 +67,7 @@ export async function createPertemuanService(input: CreatePertemuanInput, actorG
     jadwal: doc.jadwal.toISOString(),
     status: computeStatus(doc.jadwal, doc.durasi),
     kelasNama: kelas.nama,
-    guruNama: '',
+    guruNama: guru?.name ?? '',
   };
 
   return view;

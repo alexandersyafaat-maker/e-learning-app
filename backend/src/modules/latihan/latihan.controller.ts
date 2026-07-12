@@ -67,7 +67,13 @@ export const listHasilController = asyncHandler(async (req: Request, res: Respon
 });
 
 export const cekHasilController = asyncHandler(async (req: Request, res: Response) => {
-  sendSuccess(res, await cekHasilSiswa(req.params.id, req.params.siswaId));
+  sendSuccess(
+    res,
+    await cekHasilSiswa(req.params.id, req.params.siswaId, {
+      userId: req.user!.userId,
+      role: req.user!.role,
+    }),
+  );
 });
 
 export const submitLatihanController = asyncHandler(async (req: Request, res: Response) => {

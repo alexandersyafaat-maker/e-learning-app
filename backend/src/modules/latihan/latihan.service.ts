@@ -116,9 +116,17 @@ export async function listLatihanSiswa(query: LatihanQuery) {
   return findLatihanWithStatus(kelasId, query.siswaId);
 }
 
-export async function cekHasilSiswa(latihanId: string, siswaId: string) {
+export async function cekHasilSiswa(
+  latihanId: string,
+  siswaId: string,
+  actor: { userId: string; role: 'ADMIN' | 'GURU' | 'SISWA' },
+) {
   const latihan = await findLatihanById(latihanId);
   if (!latihan) throw AppError.notFound('Latihan');
+
+  if (actor.role === 'SISWA' && actor.userId !== siswaId) throw AppError.forbidden();
+  if (actor.role === 'GURU' && latihan.guruId !== actor.userId) throw AppError.forbidden();
+
   const hasil = await findHasilBySiswa(latihanId, siswaId);
   return hasil ? hasil.toJSON() : null;
 }
@@ -132,6 +140,9 @@ export async function submitLatihanService(
 
   const latihan = await findLatihanById(latihanId);
   if (!latihan) throw AppError.notFound('Latihan');
+
+  const kelasIdSiswa = await findKelasIdBySiswaId(input.siswaId);
+  if (kelasIdSiswa !== latihan.kelasId) throw AppError.notInClass();
 
   if (latihan.deadline && new Date() > latihan.deadline) {
     throw AppError.deadlinePassed();

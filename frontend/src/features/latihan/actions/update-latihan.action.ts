@@ -2,6 +2,7 @@
 
 import { revalidatePath } from "next/cache";
 import type { ActionResponse, Lampiran } from "@/lib/types";
+import { getSession } from "@/lib/session";
 import type { Latihan } from "../types/latihan.types";
 import { updateLatihanRequest } from "../services/latihan.service";
 import { uploadLampiranFiles } from "@/lib/upload";
@@ -10,6 +11,9 @@ export async function updateLatihanAction(
   _prev: ActionResponse<Latihan> | null,
   formData: FormData
 ): Promise<ActionResponse<Latihan>> {
+  const session = await getSession();
+  if (!session) return { success: false, error: "Sesi tidak valid." };
+
   const id = formData.get("id") as string;
   const judul = (formData.get("judul") as string)?.trim();
   const deskripsi = (formData.get("deskripsi") as string)?.trim();

@@ -4,9 +4,23 @@ import { findKelasIdBySiswaId } from '@/modules/akun/akun.repository';
 import { ObrolanRole } from '@/modules/obrolan/obrolan.model';
 import { findPesanByMateri, createPesan } from '@/modules/obrolan/obrolan.repository';
 
-export async function listPesan(materiId: string) {
+export async function listPesan(
+  materiId: string,
+  actor: { userId: string; role: ObrolanRole; kelasId?: string },
+) {
   const materi = await findMateriDocById(materiId);
   if (!materi) throw AppError.notFound('Materi');
+
+  if (actor.role === 'GURU' && materi.guruId !== actor.userId) {
+    throw AppError.forbidden('Anda bukan guru materi ini');
+  }
+  if (actor.role === 'SISWA') {
+    const kelasId = actor.kelasId ?? (await findKelasIdBySiswaId(actor.userId));
+    if (kelasId !== materi.kelasId) {
+      throw AppError.forbidden('Anda tidak terdaftar di kelas materi ini');
+    }
+  }
+
   const items = await findPesanByMateri(materiId);
   return items.map((p) => p.toJSON());
 }

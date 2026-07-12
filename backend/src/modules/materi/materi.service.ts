@@ -11,18 +11,33 @@ import {
   deleteMateriById,
 } from '@/modules/materi/materi.repository';
 
-export async function listMateri(query: MateriQuery) {
-  // siswaId provided: resolve their kelasId
-  if (query.siswaId && !query.kelasId) {
-    const kelasId = await findKelasIdBySiswaId(query.siswaId);
+export async function listMateri(
+  query: MateriQuery,
+  actor: { userId: string; role: 'ADMIN' | 'GURU' | 'SISWA' },
+) {
+  if (actor.role === 'SISWA') {
+    const kelasId = await findKelasIdBySiswaId(actor.userId);
     return findMateriList({ kelasId: kelasId ?? undefined });
+  }
+  if (actor.role === 'GURU') {
+    return findMateriList({ ...query, guruId: actor.userId });
   }
   return findMateriList(query);
 }
 
-export async function getMateri(id: string) {
+export async function getMateri(
+  id: string,
+  actor: { userId: string; role: 'ADMIN' | 'GURU' | 'SISWA' },
+) {
   const materi = await findMateriById(id);
   if (!materi) throw AppError.notFound('Materi');
+
+  if (actor.role === 'SISWA') {
+    const kelasId = await findKelasIdBySiswaId(actor.userId);
+    if (kelasId !== materi.kelasId) throw AppError.forbidden();
+  }
+  if (actor.role === 'GURU' && materi.guruId !== actor.userId) throw AppError.forbidden();
+
   return materi;
 }
 

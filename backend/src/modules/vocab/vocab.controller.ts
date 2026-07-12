@@ -16,7 +16,13 @@ import {
 } from '@/modules/vocab/vocab.service';
 
 export const listVocabController = asyncHandler(async (req: Request, res: Response) => {
-  sendSuccess(res, await listVocabService(req.query as VocabQuery));
+  sendSuccess(
+    res,
+    await listVocabService(req.query as VocabQuery, {
+      userId: req.user!.userId,
+      role: req.user!.role,
+    }),
+  );
 });
 
 export const createVocabController = asyncHandler(async (req: Request, res: Response) => {
@@ -33,7 +39,13 @@ export const deleteVocabController = asyncHandler(async (req: Request, res: Resp
 });
 
 export const getReviewQueueController = asyncHandler(async (req: Request, res: Response) => {
-  sendSuccess(res, await getReviewQueueService(req.query as ReviewQuery));
+  sendSuccess(
+    res,
+    await getReviewQueueService(req.query as ReviewQuery, {
+      userId: req.user!.userId,
+      role: req.user!.role,
+    }),
+  );
 });
 
 export const submitReviewController = asyncHandler(async (req: Request, res: Response) => {

@@ -3,6 +3,7 @@
 import { revalidatePath } from "next/cache";
 import type { ActionResponse } from "@/lib/types";
 import { Role } from "@/features/auth/types/auth.types";
+import { getSession } from "@/lib/session";
 import type { Akun } from "../types/akun.types";
 import { updateAkunRequest } from "../services/akun.service";
 
@@ -10,6 +11,11 @@ export async function updateAkunAction(
   _prevState: ActionResponse<Akun> | null,
   formData: FormData
 ): Promise<ActionResponse<Akun>> {
+  const session = await getSession();
+  if (!session || session.role !== Role.ADMIN) {
+    return { success: false, error: "Tidak memiliki akses." };
+  }
+
   const id = formData.get("id") as string;
   const name = (formData.get("name") as string)?.trim();
   const email = (formData.get("email") as string)?.trim();

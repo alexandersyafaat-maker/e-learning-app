@@ -28,8 +28,7 @@ export const listLatihanController = asyncHandler(async (req: Request, res: Resp
 
   let data;
   if (role === 'GURU') {
-    const guruId = query.guruId ?? req.user!.userId;
-    data = await listLatihanGuru(guruId);
+    data = await listLatihanGuru(req.user!.userId);
   } else {
     data = await listLatihanSiswa(query);
   }

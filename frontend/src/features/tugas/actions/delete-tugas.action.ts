@@ -2,9 +2,13 @@
 
 import { revalidatePath } from "next/cache";
 import type { ActionResponse } from "@/lib/types";
+import { getSession } from "@/lib/session";
 import { deleteTugasRequest } from "../services/tugas.service";
 
 export async function deleteTugasAction(id: string): Promise<ActionResponse<void>> {
+  const session = await getSession();
+  if (!session) return { success: false, error: "Sesi tidak valid." };
+
   if (!id) return { success: false, error: "ID tidak valid." };
   try {
     const deleted = await deleteTugasRequest(id);

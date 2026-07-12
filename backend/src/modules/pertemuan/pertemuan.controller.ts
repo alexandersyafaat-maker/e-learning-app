@@ -10,7 +10,10 @@ import {
 
 export const listPertemuanController = asyncHandler(async (req: Request, res: Response) => {
   const query = req.query as PertemuanQuery;
-  sendSuccess(res, await listPertemuanService(query, req.user!.role));
+  sendSuccess(
+    res,
+    await listPertemuanService(query, { userId: req.user!.userId, role: req.user!.role }),
+  );
 });
 
 export const createPertemuanController = asyncHandler(async (req: Request, res: Response) => {

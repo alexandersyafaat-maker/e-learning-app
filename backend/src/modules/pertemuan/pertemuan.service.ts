@@ -26,14 +26,19 @@ function stripSiswa(
   return view;
 }
 
-export async function listPertemuanService(query: PertemuanQuery, role: Role) {
-  let resolvedQuery = { ...query };
-  if (query.siswaId && !query.kelasId) {
-    const kelasId = await findKelasIdBySiswaId(query.siswaId);
+export async function listPertemuanService(
+  query: PertemuanQuery,
+  actor: { userId: string; role: Role },
+) {
+  let resolvedQuery: PertemuanQuery = { ...query };
+  if (actor.role === 'SISWA') {
+    const kelasId = await findKelasIdBySiswaId(actor.userId);
     resolvedQuery = { kelasId: kelasId ?? undefined };
+  } else if (actor.role === 'GURU') {
+    resolvedQuery = { ...query, guruId: actor.userId };
   }
   const list = await findPertemuanList(resolvedQuery);
-  return list.map((p) => stripSiswa(p, role));
+  return list.map((p) => stripSiswa(p, actor.role));
 }
 
 export async function createPertemuanService(input: CreatePertemuanInput, actorGuruId: string) {

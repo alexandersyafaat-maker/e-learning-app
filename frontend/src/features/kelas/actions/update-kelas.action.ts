@@ -2,6 +2,8 @@
 
 import { revalidatePath } from "next/cache";
 import type { ActionResponse } from "@/lib/types";
+import { Role } from "@/features/auth/types/auth.types";
+import { getSession } from "@/lib/session";
 import type { Kelas } from "../types/kelas.types";
 import { updateKelasRequest } from "../services/kelas.service";
 
@@ -9,6 +11,11 @@ export async function updateKelasAction(
   _prevState: ActionResponse<Kelas> | null,
   formData: FormData
 ): Promise<ActionResponse<Kelas>> {
+  const session = await getSession();
+  if (!session || session.role !== Role.ADMIN) {
+    return { success: false, error: "Tidak memiliki akses." };
+  }
+
   const id = formData.get("id") as string;
   const nama = (formData.get("nama") as string)?.trim();
   const tingkat = (formData.get("tingkat") as string)?.trim();

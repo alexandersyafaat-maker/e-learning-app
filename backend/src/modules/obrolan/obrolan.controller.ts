@@ -7,7 +7,8 @@ import { listPesan, sendPesan } from '@/modules/obrolan/obrolan.service';
 
 export const listPesanController = asyncHandler(async (req: Request, res: Response) => {
   const { materiId } = req.query as ObrolanQuery;
-  sendSuccess(res, await listPesan(materiId));
+  const { userId, role, kelasId } = req.user!;
+  sendSuccess(res, await listPesan(materiId, { userId, role: role as ObrolanRole, kelasId }));
 });
 
 export const sendPesanController = asyncHandler(async (req: Request, res: Response) => {

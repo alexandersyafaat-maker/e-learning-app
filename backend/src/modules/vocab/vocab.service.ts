@@ -49,7 +49,17 @@ function sm2(
 
 // ── Guru ──────────────────────────────────────────────────
 
-export async function listVocabService(query: VocabQuery) {
+export async function listVocabService(
+  query: VocabQuery,
+  actor: { userId: string; role: 'ADMIN' | 'GURU' | 'SISWA' },
+) {
+  if (actor.role === 'SISWA') {
+    const kelasId = await findKelasIdBySiswaId(actor.userId);
+    return findCardList({ kelasId: kelasId ?? undefined });
+  }
+  if (actor.role === 'GURU') {
+    return findCardList({ ...query, guruId: actor.userId });
+  }
   return findCardList(query);
 }
 
@@ -85,7 +95,12 @@ export async function deleteVocabService(id: string, actorGuruId: string): Promi
 
 // ── Siswa ─────────────────────────────────────────────────
 
-export async function getReviewQueueService(query: ReviewQuery) {
+export async function getReviewQueueService(
+  query: ReviewQuery,
+  actor: { userId: string; role: 'ADMIN' | 'GURU' | 'SISWA' },
+) {
+  if (actor.role === 'SISWA' && query.siswaId !== actor.userId) throw AppError.forbidden();
+
   const kelasId = query.kelasId ?? (await findKelasIdBySiswaId(query.siswaId));
   if (!kelasId) throw AppError.badRequest('Siswa belum terdaftar di kelas');
   return findCardsWithProgress(kelasId, query.siswaId);

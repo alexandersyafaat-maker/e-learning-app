@@ -2,9 +2,16 @@
 
 import { revalidatePath } from "next/cache";
 import type { ActionResponse } from "@/lib/types";
+import { Role } from "@/features/auth/types/auth.types";
+import { getSession } from "@/lib/session";
 import { deleteKelasRequest } from "../services/kelas.service";
 
 export async function deleteKelasAction(id: string): Promise<ActionResponse<void>> {
+  const session = await getSession();
+  if (!session || session.role !== Role.ADMIN) {
+    return { success: false, error: "Tidak memiliki akses." };
+  }
+
   if (!id) return { success: false, error: "ID tidak valid." };
 
   try {

@@ -13,11 +13,13 @@ import {
 
 export const listMateriController = asyncHandler(async (req: Request, res: Response) => {
   const query = req.query as MateriQuery;
-  sendSuccess(res, await listMateri(query));
+  const actor = { userId: req.user!.userId, role: req.user!.role };
+  sendSuccess(res, await listMateri(query, actor));
 });
 
 export const getMateriController = asyncHandler(async (req: Request, res: Response) => {
-  sendSuccess(res, await getMateri(req.params.id));
+  const actor = { userId: req.user!.userId, role: req.user!.role };
+  sendSuccess(res, await getMateri(req.params.id, actor));
 });
 
 export const createMateriController = asyncHandler(async (req: Request, res: Response) => {

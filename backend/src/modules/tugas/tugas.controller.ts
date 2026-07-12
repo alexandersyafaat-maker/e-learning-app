@@ -26,9 +26,7 @@ export const listTugasController = asyncHandler(async (req: Request, res: Respon
   const query = req.query as TugasQuery;
   const role = req.user!.role;
   const data =
-    role === 'GURU'
-      ? await listTugasGuru(query.guruId ?? req.user!.userId)
-      : await listTugasSiswa(query);
+    role === 'GURU' ? await listTugasGuru(req.user!.userId) : await listTugasSiswa(query);
   sendSuccess(res, data);
 });
 

@@ -4,7 +4,7 @@ Domain: `my-learning.my.id` (root `@` + `www` → frontend, `api` → backend)
 
 | Service  | Port | Domain                                    |
 |----------|------|--------------------------------------------|
-| Frontend | 3005 | my-learning.my.id, www.my-learning.my.id  |
+| Frontend | 3006 | my-learning.my.id, www.my-learning.my.id  |
 | Backend  | 8000 | api.my-learning.my.id                     |
 
 Asumsi: VPS Ubuntu 22.04/24.04, akses root/sudo, repo backend + frontend jadi 2 folder sibling di server (`/var/www/e-learning/backend`, `/var/www/e-learning/frontend`).
@@ -89,13 +89,33 @@ UPLOAD_DIR=uploads
 
 `JWT_SECRET` / `JWT_REFRESH_SECRET` wajib ≥32 karakter, `COOKIE_SECRET` wajib diisi — env.ts akan throw kalau kurang.
 
-Deploy:
+Deploy manual (tanpa `npm run deploy`):
 
 ```bash
-npm run deploy   # scripts/deploy.sh: ci -> lint -> type-check -> test -> build -> pm2 reload
+npm ci                    # install exact deps dari lockfile
+npm run lint
+npm run type-check
+npm test
+
+rm -rf dist
+npm run build             # compile TypeScript -> dist/
+npm prune --omit=dev      # buang devDependencies dari node_modules
+
+mkdir -p uploads           # sesuai UPLOAD_DIR di .env.production
+
+pm2 start ecosystem.config.js --env production
+pm2 save
 ```
 
 Cek jalan: `curl http://localhost:8000/api/health` (atau endpoint health yang ada).
+
+**First deploy saja** — isi data awal (akun admin dkk) ke database yang masih kosong:
+
+```bash
+npm run db:seed:prod
+```
+
+Aman di-re-run: kalau database udah ada isi, seed nolak jalan (tidak akan menghapus data production).
 
 ## 4. Setup frontend
 
@@ -112,11 +132,11 @@ Isi `.env.production` (frontend, sesuaikan nama var sesuai konfigurasi Next.js p
 NEXT_PUBLIC_API_URL=https://api.my-learning.my.id/api
 ```
 
-Build & jalankan port 3005:
+Build & jalankan port 3006:
 
 ```bash
 npm run build
-pm2 start npm --name e-learning-frontend -- start -- -p 3005
+pm2 start npm --name e-learning-frontend -- start -- -p 3006
 pm2 save
 ```
 
@@ -138,7 +158,7 @@ server {
     server_name my-learning.my.id www.my-learning.my.id;
 
     location / {
-        proxy_pass http://127.0.0.1:3005;
+        proxy_pass http://127.0.0.1:3006;
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection 'upgrade';
@@ -204,7 +224,20 @@ pm2 logs e-learning-frontend
 Backend:
 ```bash
 cd /var/www/e-learning/backend
-npm run deploy
+git fetch origin main
+git reset --hard origin/main
+
+npm ci
+npm run lint
+npm run type-check
+npm test
+
+rm -rf dist
+npm run build
+npm prune --omit=dev
+
+pm2 reload ecosystem.config.js --env production
+pm2 save
 ```
 
 Frontend:

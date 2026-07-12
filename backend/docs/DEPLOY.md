@@ -59,6 +59,7 @@ sudo chown -R $USER:$USER /var/www/e-learning
 cd /var/www/e-learning
 git clone <repo-url-backend> backend
 cd backend
+npm install
 ```
 
 Isi `.env.production`:
@@ -89,21 +90,12 @@ UPLOAD_DIR=uploads
 
 `JWT_SECRET` / `JWT_REFRESH_SECRET` wajib ≥32 karakter, `COOKIE_SECRET` wajib diisi — env.ts akan throw kalau kurang.
 
-Deploy manual (tanpa `npm run deploy`):
+Deploy — alurnya sama kayak frontend:
 
 ```bash
-npm ci                    # install exact deps dari lockfile
-npm run lint
-npm run type-check
-npm test
-
-rm -rf dist
-npm run build             # compile TypeScript -> dist/
-npm prune --omit=dev      # buang devDependencies dari node_modules
-
-mkdir -p uploads           # sesuai UPLOAD_DIR di .env.production
-
-pm2 start ecosystem.config.js --env production
+mkdir -p uploads   # sesuai UPLOAD_DIR di .env.production
+npm run build
+pm2 start npm --name e-learning-backend -- start
 pm2 save
 ```
 
@@ -224,20 +216,10 @@ pm2 logs e-learning-frontend
 Backend:
 ```bash
 cd /var/www/e-learning/backend
-git fetch origin main
-git reset --hard origin/main
-
-npm ci
-npm run lint
-npm run type-check
-npm test
-
-rm -rf dist
+git pull
+npm install
 npm run build
-npm prune --omit=dev
-
-pm2 reload ecosystem.config.js --env production
-pm2 save
+pm2 restart e-learning-backend
 ```
 
 Frontend:

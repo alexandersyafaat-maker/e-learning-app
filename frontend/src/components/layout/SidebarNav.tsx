@@ -73,13 +73,15 @@ export function SidebarNav({ role }: { role: Role }) {
         })}
       </div>
       <div className="pt-3 border-t border-slate-700 mt-3">
-        <Link
+        {/* Sengaja <a> biasa, bukan <Link> — Link auto-prefetch akan
+            nge-GET /api/logout diam-diam dan menghapus session. */}
+        <a
           href="/api/logout"
           className="flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm text-slate-400 hover:bg-red-900/40 hover:text-red-300 transition-colors"
         >
           <LogOut size={18} className="shrink-0" />
           Keluar
-        </Link>
+        </a>
       </div>
     </nav>
   );

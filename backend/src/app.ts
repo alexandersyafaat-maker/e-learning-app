@@ -26,6 +26,10 @@ import obrolanRoutes from '@/modules/obrolan/obrolan.routes';
 export function createApp(): Application {
   const app = express();
 
+  // Behind nginx reverse proxy in production — trust its X-Forwarded-For
+  // so express-rate-limit and req.ip see the real client IP, not nginx's.
+  if (!isDev) app.set('trust proxy', 1);
+
   // ── Security ──────────────────────────────────────────────
   app.use(helmet());
   app.use(

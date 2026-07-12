@@ -1,5 +1,5 @@
 import { randomInt } from 'crypto';
-import { env, isDev } from '@/config/env';
+import { env } from '@/config/env';
 import { AppError } from '@/utils/AppError';
 import { logger } from '@/config/logger';
 
@@ -83,7 +83,7 @@ export interface ZoomMeeting {
 
 function mockZoomMeeting(topic: string): ZoomMeeting {
   const id = String(randomInt(10_000_000_000, 99_999_999_999));
-  logger.warn('[zoom] Credentials belum dikonfigurasi — pakai mock meeting (dev only)', {
+  logger.warn('[zoom] Credentials belum dikonfigurasi — pakai mock meeting (bukan Zoom asli)', {
     topic,
     meetingId: id,
   });
@@ -100,7 +100,7 @@ export async function createZoomMeeting(params: {
   startTime: string; // ISO 8601
   duration: number; // menit
 }): Promise<ZoomMeeting> {
-  if (isDev && !hasZoomCredentials()) {
+  if (!hasZoomCredentials()) {
     return mockZoomMeeting(params.topic);
   }
 
@@ -122,8 +122,8 @@ export async function createZoomMeeting(params: {
 }
 
 export async function deleteZoomMeeting(meetingId: string): Promise<void> {
-  if (isDev && !hasZoomCredentials()) {
-    logger.warn('[zoom] Credentials belum dikonfigurasi — skip delete mock meeting (dev only)', {
+  if (!hasZoomCredentials()) {
+    logger.warn('[zoom] Credentials belum dikonfigurasi — skip delete mock meeting', {
       meetingId,
     });
     return;

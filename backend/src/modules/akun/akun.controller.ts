@@ -2,12 +2,7 @@ import { Request, Response } from 'express';
 import { asyncHandler } from '@/middlewares/async-handler';
 import { sendSuccess, sendCreated, sendNoContent } from '@/utils/response';
 import { CreateAkunInput, UpdateAkunInput } from '@/modules/akun/akun.types';
-import {
-  listAkun,
-  createAkun,
-  updateAkun,
-  deleteAkun,
-} from '@/modules/akun/akun.service';
+import { listAkun, createAkun, updateAkun, deleteAkun } from '@/modules/akun/akun.service';
 
 export const listAkunController = asyncHandler(async (_req: Request, res: Response) => {
   const data = await listAkun();

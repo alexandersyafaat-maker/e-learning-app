@@ -1,7 +1,13 @@
 import { AppError } from '@/utils/AppError';
 import { comparePassword, hashPassword } from '@/utils/password';
 import { signAccessToken, JwtPayload } from '@/utils/jwt';
-import { findByEmail, findByIdentifier, findById, createAuthUser, updateAvatar as updateAvatarRepo } from '@/modules/auth/auth.repository';
+import {
+  findByEmail,
+  findByIdentifier,
+  findById,
+  createAuthUser,
+  updateAvatar as updateAvatarRepo,
+} from '@/modules/auth/auth.repository';
 import { deleteUploadedFile } from '@/middlewares/upload.middleware';
 import { LoginInput, RegisterInput, Session } from '@/modules/auth/auth.types';
 
@@ -9,7 +15,7 @@ export async function login(input: LoginInput): Promise<{ token: string; user: S
   const user = await findByIdentifier(input.identifier);
   if (!user) throw AppError.invalidCredentials();
 
-  const valid = await comparePassword(input.password, user.password as string);
+  const valid = await comparePassword(input.password, user.password);
   if (!valid) throw AppError.invalidCredentials();
 
   const payload: JwtPayload = {
@@ -34,9 +40,13 @@ export async function register(input: RegisterInput): Promise<{ token: string; u
 
   const hashed = await hashPassword(input.password);
   const user = await createAuthUser({
-    name: input.name, email: input.email, password: hashed,
-    role: input.role, kelasId: input.kelasId,
-    nisn: input.nisn, nik: input.nik,
+    name: input.name,
+    email: input.email,
+    password: hashed,
+    role: input.role,
+    kelasId: input.kelasId,
+    nisn: input.nisn,
+    nik: input.nik,
   });
 
   const payload: JwtPayload = {

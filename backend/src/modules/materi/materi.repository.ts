@@ -29,7 +29,10 @@ async function enrichMateri(materi: MateriDocument): Promise<MateriView> {
   };
 }
 
-export async function findMateriList(filter: { guruId?: string; kelasId?: string }): Promise<MateriView[]> {
+export async function findMateriList(filter: {
+  guruId?: string;
+  kelasId?: string;
+}): Promise<MateriView[]> {
   const query: Record<string, string> = {};
   if (filter.guruId) query.guruId = filter.guruId;
   if (filter.kelasId) query.kelasId = filter.kelasId;

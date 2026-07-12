@@ -38,9 +38,10 @@ export const registerController = asyncHandler(async (req: Request, res: Respons
   sendSuccess(res, { user, token }, 201, 'Registrasi berhasil');
 });
 
-export const logoutController = asyncHandler(async (_req: Request, res: Response) => {
+export const logoutController = asyncHandler((_req: Request, res: Response) => {
   res.clearCookie(COOKIE_NAME);
   sendNoContent(res);
+  return Promise.resolve();
 });
 
 export const meController = asyncHandler(async (req: Request, res: Response) => {

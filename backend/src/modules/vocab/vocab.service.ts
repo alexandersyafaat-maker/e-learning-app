@@ -1,10 +1,20 @@
 import { AppError } from '@/utils/AppError';
 import { findKelasById } from '@/modules/kelas/kelas.repository';
 import { findKelasIdBySiswaId } from '@/modules/akun/akun.repository';
-import { CreateVocabInput, ReviewInput, VocabQuery, ReviewQuery } from '@/modules/vocab/vocab.types';
 import {
-  findCardList, findCardById, createCard, deleteCardById,
-  findProgressByCard, upsertProgress, findCardsWithProgress,
+  CreateVocabInput,
+  ReviewInput,
+  VocabQuery,
+  ReviewQuery,
+} from '@/modules/vocab/vocab.types';
+import {
+  findCardList,
+  findCardById,
+  createCard,
+  deleteCardById,
+  findProgressByCard,
+  upsertProgress,
+  findCardsWithProgress,
 } from '@/modules/vocab/vocab.repository';
 
 // ── SM-2 ──────────────────────────────────────────────────
@@ -14,7 +24,10 @@ function sm2(
   prev: { interval: number; easeFactor: number; repetitions: number },
 ): { interval: number; easeFactor: number; repetitions: number } {
   // Update EF regardless of quality
-  const newEF = Math.max(1.3, prev.easeFactor + 0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02));
+  const newEF = Math.max(
+    1.3,
+    prev.easeFactor + 0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02),
+  );
 
   if (quality < 3) {
     // Incorrect — reset streak, review again tomorrow

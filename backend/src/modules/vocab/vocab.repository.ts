@@ -1,6 +1,10 @@
 import {
-  VocabCardModel, VocabCardDocument, IVocabCard,
-  SRSProgressModel, SRSProgressDocument, ISRSProgress,
+  VocabCardModel,
+  VocabCardDocument,
+  IVocabCard,
+  SRSProgressModel,
+  SRSProgressDocument,
+  ISRSProgress,
 } from '@/modules/vocab/vocab.model';
 import { UserModel } from '@/modules/auth/user.model';
 import { KelasModel } from '@/modules/kelas/kelas.model';
@@ -82,14 +86,16 @@ export async function findProgressByCard(
 export async function upsertProgress(
   cardId: string,
   siswaId: string,
-  data: Partial<Omit<ISRSProgress, 'id' | '_id' | 'cardId' | 'siswaId' | 'createdAt' | 'updatedAt'>>,
+  data: Partial<
+    Omit<ISRSProgress, 'id' | '_id' | 'cardId' | 'siswaId' | 'createdAt' | 'updatedAt'>
+  >,
 ): Promise<SRSProgressDocument> {
   const doc = await SRSProgressModel.findOneAndUpdate(
     { cardId, siswaId },
     { $set: data },
     { new: true, upsert: true, runValidators: true },
   ).exec();
-  return doc!;
+  return doc;
 }
 
 export async function findCardsWithProgress(
@@ -106,10 +112,10 @@ export async function findCardsWithProgress(
         SRSProgressModel.findOne({ cardId: card.id, siswaId }).exec(),
       ]);
       const isNew = !progress;
-      const isDue = isNew || progress!.nextReviewAt <= now;
+      const isDue = isNew || progress.nextReviewAt <= now;
       return {
         ...view,
-        progress: progress ? (progress.toJSON() as unknown as Record<string, unknown>) : null,
+        progress: progress ? progress.toJSON() : null,
         isDue,
         isNew,
       };

@@ -81,18 +81,24 @@ export const submitLatihanController = asyncHandler(async (req: Request, res: Re
 export const beriNilaiController = asyncHandler(async (req: Request, res: Response) => {
   sendSuccess(
     res,
-    await beriNilaiService(req.params.id, req.params.hasilId, req.body as NilaiInput, req.user!.userId),
+    await beriNilaiService(
+      req.params.id,
+      req.params.hasilId,
+      req.body as NilaiInput,
+      req.user!.userId,
+    ),
     200,
     'Nilai berhasil disimpan',
   );
 });
 
-export const uploadLampiranLatihanController = asyncHandler(async (req: Request, res: Response) => {
+export const uploadLampiranLatihanController = asyncHandler((req: Request, res: Response) => {
   if (!req.file) {
     sendSuccess(res, null, 400, 'File tidak ditemukan');
-    return;
+    return Promise.resolve();
   }
   const baseUrl = `${req.protocol}://${req.get('host')}`;
   const lampiran = fileToLampiran(req.file, baseUrl);
   sendCreated(res, lampiran, 'File berhasil diupload');
+  return Promise.resolve();
 });

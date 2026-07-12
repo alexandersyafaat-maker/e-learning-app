@@ -15,7 +15,11 @@ export interface PaginatedResult<T> {
   meta: PaginationMeta;
 }
 
-export function parsePagination(query: PaginationQuery): { skip: number; limit: number; page: number } {
+export function parsePagination(query: PaginationQuery): {
+  skip: number;
+  limit: number;
+  page: number;
+} {
   const page = Math.max(1, query.page ?? 1);
   const limit = Math.min(100, Math.max(1, query.limit ?? 20));
   const skip = (page - 1) * limit;

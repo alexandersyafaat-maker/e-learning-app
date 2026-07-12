@@ -74,7 +74,12 @@ export function createApp(): Application {
   // ── Health check ──────────────────────────────────────────
   app.get('/health', (_req: Request, res: Response) => {
     const dbState = mongoose.connection.readyState;
-    const db = dbState === 1 ? 'connected' : dbState === 2 ? 'connecting' : 'disconnected';
+    const db =
+      dbState === mongoose.ConnectionStates.connected
+        ? 'connected'
+        : dbState === mongoose.ConnectionStates.connecting
+          ? 'connecting'
+          : 'disconnected';
     res.json({ success: true, data: { status: 'ok', env: env.NODE_ENV, db } });
   });
 

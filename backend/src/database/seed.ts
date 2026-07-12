@@ -2,8 +2,8 @@ import '@/config/env'; // validate env first
 import { connectDatabase, disconnectDatabase } from '@/config/database';
 import { logger } from '@/config/logger';
 import { hashPassword } from '@/utils/password';
-import { UserModel } from '@/modules/auth/user.model';
-import { KelasModel } from '@/modules/kelas/kelas.model';
+import { UserModel, UserDocument } from '@/modules/auth/user.model';
+import { KelasModel, KelasDocument } from '@/modules/kelas/kelas.model';
 
 // Default password untuk semua akun seed (dev only).
 const DEFAULT_PASSWORD = 'password123';
@@ -18,18 +18,33 @@ async function seed(): Promise<void> {
 
   // ── Users ─────────────────────────────────────────────────
   logger.info('[seed] Creating users...');
-  const [admin, guru1, guru2, siswa1, siswa2, siswa3] = await UserModel.create([
+  const [admin, guru1, guru2, siswa1, siswa2, siswa3]: UserDocument[] = await UserModel.create([
     { name: 'Admin Sekolah', email: 'admin@elearning.id', password: passwordHash, role: 'ADMIN' },
     { name: 'Budi Santoso', email: 'budi.guru@elearning.id', password: passwordHash, role: 'GURU' },
     { name: 'Siti Aminah', email: 'siti.guru@elearning.id', password: passwordHash, role: 'GURU' },
-    { name: 'Andi Pratama', email: 'andi.siswa@elearning.id', password: passwordHash, role: 'SISWA' },
-    { name: 'Dewi Lestari', email: 'dewi.siswa@elearning.id', password: passwordHash, role: 'SISWA' },
-    { name: 'Rizki Hidayat', email: 'rizki.siswa@elearning.id', password: passwordHash, role: 'SISWA' },
+    {
+      name: 'Andi Pratama',
+      email: 'andi.siswa@elearning.id',
+      password: passwordHash,
+      role: 'SISWA',
+    },
+    {
+      name: 'Dewi Lestari',
+      email: 'dewi.siswa@elearning.id',
+      password: passwordHash,
+      role: 'SISWA',
+    },
+    {
+      name: 'Rizki Hidayat',
+      email: 'rizki.siswa@elearning.id',
+      password: passwordHash,
+      role: 'SISWA',
+    },
   ]);
 
   // ── Kelas ─────────────────────────────────────────────────
   logger.info('[seed] Creating kelas...');
-  const [kelasVII, kelasVIII, kelasIX] = await KelasModel.create([
+  const [kelasVII, kelasVIII, kelasIX]: KelasDocument[] = await KelasModel.create([
     {
       nama: 'Kelas VII',
       tingkat: 'VII',
@@ -65,7 +80,11 @@ async function seed(): Promise<void> {
       guru: [guru1.email, guru2.email],
       siswa: [siswa1.email, siswa2.email, siswa3.email],
     },
-    kelasIds: { kelasVII: kelasVII.id, kelasVIII: kelasVIII.id, kelasIX: kelasIX.id },
+    kelasIds: {
+      kelasVII: String(kelasVII.id),
+      kelasVIII: String(kelasVIII.id),
+      kelasIX: String(kelasIX.id),
+    },
     defaultPassword: DEFAULT_PASSWORD,
   });
 }

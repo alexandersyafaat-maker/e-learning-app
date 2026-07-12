@@ -12,7 +12,9 @@ export async function findUserByEmail(email: string): Promise<UserDocument | nul
   return UserModel.findOne({ email: email.toLowerCase() }).exec();
 }
 
-export async function createUser(data: Omit<IUser, 'id' | 'createdAt' | 'updatedAt'>): Promise<UserDocument> {
+export async function createUser(
+  data: Omit<IUser, 'id' | 'createdAt' | 'updatedAt'>,
+): Promise<UserDocument> {
   return UserModel.create(data);
 }
 

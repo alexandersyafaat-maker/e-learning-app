@@ -1,3 +1,4 @@
+import { randomUUID } from 'crypto';
 import { Schema, model, HydratedDocument } from 'mongoose';
 import { uuidId, baseSchemaOptions } from '@/utils/mongoose';
 
@@ -25,7 +26,7 @@ export type MateriDocument = HydratedDocument<IMateri>;
 
 const lampiranSchema = new Schema<ILampiran>(
   {
-    id: { type: String, default: () => require('crypto').randomUUID() },
+    id: { type: String, default: () => randomUUID() },
     nama: { type: String, required: true },
     ukuran: { type: Number, required: true },
     tipe: { type: String, required: true },

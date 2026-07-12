@@ -6,8 +6,14 @@ export const CreateAkunSchema = z.object({
   email: z.string().email('Email tidak valid').trim(),
   password: z.string().min(6, 'Password minimal 6 karakter'),
   role: z.enum(ROLES, { errorMap: () => ({ message: 'Role tidak valid' }) }),
-  nisn: z.string().regex(/^\d{10}$/, 'NISN harus 10 digit angka').optional(),
-  nik: z.string().regex(/^\d{16}$/, 'NIK harus 16 digit angka').optional(),
+  nisn: z
+    .string()
+    .regex(/^\d{10}$/, 'NISN harus 10 digit angka')
+    .optional(),
+  nik: z
+    .string()
+    .regex(/^\d{16}$/, 'NIK harus 16 digit angka')
+    .optional(),
   kelasId: z.string().uuid('kelasId tidak valid').optional(),
 });
 
@@ -16,8 +22,14 @@ export const UpdateAkunSchema = z.object({
   email: z.string().email('Email tidak valid').trim(),
   password: z.string().min(6, 'Password minimal 6 karakter').optional().or(z.literal('')),
   role: z.enum(ROLES, { errorMap: () => ({ message: 'Role tidak valid' }) }),
-  nisn: z.string().regex(/^\d{10}$/, 'NISN harus 10 digit angka').optional(),
-  nik: z.string().regex(/^\d{16}$/, 'NIK harus 16 digit angka').optional(),
+  nisn: z
+    .string()
+    .regex(/^\d{10}$/, 'NISN harus 10 digit angka')
+    .optional(),
+  nik: z
+    .string()
+    .regex(/^\d{16}$/, 'NIK harus 16 digit angka')
+    .optional(),
   kelasId: z.string().uuid('kelasId tidak valid').optional(),
 });
 

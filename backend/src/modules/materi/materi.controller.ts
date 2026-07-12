@@ -29,7 +29,12 @@ export const createMateriController = asyncHandler(async (req: Request, res: Res
 export const updateMateriController = asyncHandler(async (req: Request, res: Response) => {
   const input = req.body as UpdateMateriInput;
   const guruId = req.user!.userId;
-  sendSuccess(res, await updateMateriService(req.params.id, input, guruId), 200, 'Materi berhasil diperbarui');
+  sendSuccess(
+    res,
+    await updateMateriService(req.params.id, input, guruId),
+    200,
+    'Materi berhasil diperbarui',
+  );
 });
 
 export const deleteMateriController = asyncHandler(async (req: Request, res: Response) => {
@@ -37,12 +42,13 @@ export const deleteMateriController = asyncHandler(async (req: Request, res: Res
   sendNoContent(res);
 });
 
-export const uploadLampiranController = asyncHandler(async (req: Request, res: Response) => {
+export const uploadLampiranController = asyncHandler((req: Request, res: Response) => {
   if (!req.file) {
     sendSuccess(res, null, 400, 'File tidak ditemukan');
-    return;
+    return Promise.resolve();
   }
   const baseUrl = `${req.protocol}://${req.get('host')}`;
   const lampiran = fileToLampiran(req.file, baseUrl);
   sendCreated(res, lampiran, 'File berhasil diupload');
+  return Promise.resolve();
 });

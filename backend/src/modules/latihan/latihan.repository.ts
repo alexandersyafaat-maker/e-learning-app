@@ -1,6 +1,10 @@
 import {
-  LatihanModel, LatihanDocument, ILatihan,
-  HasilLatihanModel, HasilLatihanDocument, IHasilLatihan,
+  LatihanModel,
+  LatihanDocument,
+  ILatihan,
+  HasilLatihanModel,
+  HasilLatihanDocument,
+  IHasilLatihan,
 } from '@/modules/latihan/latihan.model';
 import { UserModel } from '@/modules/auth/user.model';
 import { KelasModel } from '@/modules/kelas/kelas.model';
@@ -92,7 +96,7 @@ export async function findLatihanWithStatus(
       ]);
       return {
         ...view,
-        hasilLatihan: hasil ? (hasil.toJSON() as Record<string, unknown>) : null,
+        hasilLatihan: hasil ? hasil.toJSON() : null,
       };
     }),
   );

@@ -3,7 +3,11 @@ import { authenticate } from '@/middlewares/auth.middleware';
 import { requireRole } from '@/middlewares/role.middleware';
 import { validate } from '@/middlewares/validate.middleware';
 import { upload } from '@/middlewares/upload.middleware';
-import { CreateMateriSchema, UpdateMateriSchema, MateriQuerySchema } from '@/modules/materi/materi.types';
+import {
+  CreateMateriSchema,
+  UpdateMateriSchema,
+  MateriQuerySchema,
+} from '@/modules/materi/materi.types';
 import {
   listMateriController,
   getMateriController,
@@ -27,6 +31,11 @@ router.put('/:id', requireRole('GURU'), validate(UpdateMateriSchema), updateMate
 router.delete('/:id', requireRole('GURU'), deleteMateriController);
 
 // Upload lampiran — guru only, returns Lampiran object
-router.post('/upload/lampiran', requireRole('GURU'), upload.single('file'), uploadLampiranController);
+router.post(
+  '/upload/lampiran',
+  requireRole('GURU'),
+  upload.single('file'),
+  uploadLampiranController,
+);
 
 export default router;

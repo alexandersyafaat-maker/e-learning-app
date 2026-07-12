@@ -38,13 +38,23 @@ router.delete('/:id', requireRole('GURU'), deleteLatihanController);
 
 // Guru: lihat hasil + beri nilai
 router.get('/:id/hasil', requireRole('GURU'), listHasilController);
-router.patch('/:id/hasil/:hasilId/nilai', requireRole('GURU'), validate(NilaiSchema), beriNilaiController);
+router.patch(
+  '/:id/hasil/:hasilId/nilai',
+  requireRole('GURU'),
+  validate(NilaiSchema),
+  beriNilaiController,
+);
 
 // Cek status submit siswa (guru & siswa bisa akses)
 router.get('/:id/hasil/:siswaId', cekHasilController);
 
 // Siswa: submit
-router.post('/:id/submit', requireRole('SISWA'), validate(SubmitLatihanSchema), submitLatihanController);
+router.post(
+  '/:id/submit',
+  requireRole('SISWA'),
+  validate(SubmitLatihanSchema),
+  submitLatihanController,
+);
 
 // Upload lampiran — guru & siswa (untuk submit jawaban)
 router.post('/upload/lampiran', upload.single('file'), uploadLampiranLatihanController);

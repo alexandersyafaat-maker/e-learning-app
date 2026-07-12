@@ -55,6 +55,8 @@ export function errorMiddleware(
   sendError(res, 500, ERROR_CODES.INTERNAL_ERROR, 'Internal server error');
 }
 
-function isMongoServerError(err: unknown): err is { code: number; keyPattern: Record<string, unknown> } {
+function isMongoServerError(
+  err: unknown,
+): err is { code: number; keyPattern: Record<string, unknown> } {
   return typeof err === 'object' && err !== null && 'code' in err && 'keyPattern' in err;
 }

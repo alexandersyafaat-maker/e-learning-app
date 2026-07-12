@@ -10,7 +10,12 @@ const router = Router();
 router.use(authenticate);
 
 // GURU dan SISWA boleh baca + kirim (ADMIN tidak punya akses ke obrolan materi)
-router.get('/', requireRole('GURU', 'SISWA'), validate(ObrolanQuerySchema, 'query'), listPesanController);
+router.get(
+  '/',
+  requireRole('GURU', 'SISWA'),
+  validate(ObrolanQuerySchema, 'query'),
+  listPesanController,
+);
 router.post('/', requireRole('GURU', 'SISWA'), validate(SendPesanSchema), sendPesanController);
 
 export default router;

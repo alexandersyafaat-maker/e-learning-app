@@ -45,10 +45,7 @@ async function getAccessToken(): Promise<string> {
 
 // ── Zoom API call helper ──────────────────────────────────
 
-async function zoomFetch<T>(
-  path: string,
-  options: RequestInit = {},
-): Promise<T> {
+async function zoomFetch<T>(path: string, options: RequestInit = {}): Promise<T> {
   const token = await getAccessToken();
   const res = await fetch(`${ZOOM_API}${path}`, {
     ...options,
@@ -72,7 +69,7 @@ async function zoomFetch<T>(
 // ── Public API ────────────────────────────────────────────
 
 export interface ZoomMeeting {
-  id: string;          // Zoom meeting ID (number as string)
+  id: string; // Zoom meeting ID (number as string)
   join_url: string;
   start_url: string;
   password: string;
@@ -80,8 +77,8 @@ export interface ZoomMeeting {
 
 export async function createZoomMeeting(params: {
   topic: string;
-  startTime: string;  // ISO 8601
-  duration: number;   // menit
+  startTime: string; // ISO 8601
+  duration: number; // menit
 }): Promise<ZoomMeeting> {
   return zoomFetch<ZoomMeeting>('/users/me/meetings', {
     method: 'POST',

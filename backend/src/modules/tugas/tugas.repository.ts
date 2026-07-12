@@ -1,6 +1,10 @@
 import {
-  TugasModel, TugasDocument, ITugas,
-  SubmisiTugasModel, SubmisiTugasDocument, ISubmisiTugas,
+  TugasModel,
+  TugasDocument,
+  ITugas,
+  SubmisiTugasModel,
+  SubmisiTugasDocument,
+  ISubmisiTugas,
 } from '@/modules/tugas/tugas.model';
 import { UserModel } from '@/modules/auth/user.model';
 import { KelasModel } from '@/modules/kelas/kelas.model';
@@ -93,7 +97,7 @@ export async function findTugasWithStatus(
       ]);
       return {
         ...view,
-        submisi: submisi ? (submisi.toJSON() as Record<string, unknown>) : null,
+        submisi: submisi ? submisi.toJSON() : null,
       };
     }),
   );

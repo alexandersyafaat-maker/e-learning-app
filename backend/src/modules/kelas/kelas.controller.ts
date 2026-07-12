@@ -23,7 +23,12 @@ export const createKelasController = asyncHandler(async (req: Request, res: Resp
 });
 
 export const updateKelasController = asyncHandler(async (req: Request, res: Response) => {
-  sendSuccess(res, await updateKelasService(req.params.id, req.body as UpdateKelasInput), 200, 'Kelas berhasil diperbarui');
+  sendSuccess(
+    res,
+    await updateKelasService(req.params.id, req.body as UpdateKelasInput),
+    200,
+    'Kelas berhasil diperbarui',
+  );
 });
 
 export const deleteKelasController = asyncHandler(async (req: Request, res: Response) => {

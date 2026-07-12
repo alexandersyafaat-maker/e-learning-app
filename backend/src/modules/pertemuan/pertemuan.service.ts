@@ -4,13 +4,20 @@ import { findKelasIdBySiswaId } from '@/modules/akun/akun.repository';
 import { createZoomMeeting, deleteZoomMeeting } from '@/lib/zoom.client';
 import { CreatePertemuanInput, PertemuanQuery } from '@/modules/pertemuan/pertemuan.types';
 import {
-  findPertemuanList, findPertemuanById, createPertemuan, deletePertemuanById,
-  computeStatus, PertemuanView,
+  findPertemuanList,
+  findPertemuanById,
+  createPertemuan,
+  deletePertemuanById,
+  computeStatus,
+  PertemuanView,
 } from '@/modules/pertemuan/pertemuan.repository';
 
 type Role = 'ADMIN' | 'GURU' | 'SISWA';
 
-function stripSiswa(view: PertemuanView, role: Role): Omit<PertemuanView, 'zoomStartUrl'> | PertemuanView {
+function stripSiswa(
+  view: PertemuanView,
+  role: Role,
+): Omit<PertemuanView, 'zoomStartUrl'> | PertemuanView {
   if (role === 'SISWA') {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { zoomStartUrl, ...safe } = view;

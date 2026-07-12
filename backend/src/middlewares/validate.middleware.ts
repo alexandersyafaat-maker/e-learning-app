@@ -22,7 +22,9 @@ export function validate(schema: ZodSchema, target: ValidationTarget = 'body') {
       return;
     }
 
-    req[target] = result.data as typeof req[typeof target];
+    // Express types req.body as `any` by design; result.data is the Zod-validated replacement.
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+    req[target] = result.data;
     next();
   };
 }

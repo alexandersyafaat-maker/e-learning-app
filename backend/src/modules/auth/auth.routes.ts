@@ -1,7 +1,13 @@
 import { Router } from 'express';
 import { validate } from '@/middlewares/validate.middleware';
 import { LoginSchema, RegisterSchema } from '@/modules/auth/auth.types';
-import { loginController, logoutController, meController, registerController, uploadAvatarController } from '@/modules/auth/auth.controller';
+import {
+  loginController,
+  logoutController,
+  meController,
+  registerController,
+  uploadAvatarController,
+} from '@/modules/auth/auth.controller';
 import { authenticate } from '@/middlewares/auth.middleware';
 import { uploadAvatar } from '@/middlewares/upload.middleware';
 

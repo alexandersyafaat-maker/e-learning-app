@@ -18,8 +18,20 @@ router.get('/', listKelasController);
 router.get('/:id', authenticate, getKelasController);
 
 // mutasi — ADMIN only
-router.post('/', authenticate, requireRole('ADMIN'), validate(CreateKelasSchema), createKelasController);
-router.put('/:id', authenticate, requireRole('ADMIN'), validate(UpdateKelasSchema), updateKelasController);
+router.post(
+  '/',
+  authenticate,
+  requireRole('ADMIN'),
+  validate(CreateKelasSchema),
+  createKelasController,
+);
+router.put(
+  '/:id',
+  authenticate,
+  requireRole('ADMIN'),
+  validate(UpdateKelasSchema),
+  updateKelasController,
+);
 router.delete('/:id', authenticate, requireRole('ADMIN'), deleteKelasController);
 
 export default router;

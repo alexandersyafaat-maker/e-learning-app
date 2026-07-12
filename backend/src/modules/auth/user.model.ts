@@ -11,8 +11,8 @@ export interface IUser {
   email: string;
   password: string;
   role: Role;
-  nisn?: string;  // siswa only — 10-digit student ID
-  nik?: string;   // guru only  — 16-digit national ID
+  nisn?: string; // siswa only — 10-digit student ID
+  nik?: string; // guru only  — 16-digit national ID
   avatarUrl?: string;
   kelasId?: string; // siswa only
   createdAt: Date;

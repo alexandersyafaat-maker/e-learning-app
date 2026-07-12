@@ -1,8 +1,14 @@
-import { env } from '@/config/env';
+import { randomInt } from 'crypto';
+import { env, isDev } from '@/config/env';
 import { AppError } from '@/utils/AppError';
+import { logger } from '@/config/logger';
 
 const ZOOM_API = 'https://api.zoom.us/v2';
 const ZOOM_TOKEN_URL = 'https://zoom.us/oauth/token';
+
+function hasZoomCredentials(): boolean {
+  return Boolean(env.ZOOM_ACCOUNT_ID && env.ZOOM_CLIENT_ID && env.ZOOM_CLIENT_SECRET);
+}
 
 // ── OAuth token (Server-to-Server) ───────────────────────
 
@@ -75,11 +81,29 @@ export interface ZoomMeeting {
   password: string;
 }
 
+function mockZoomMeeting(topic: string): ZoomMeeting {
+  const id = String(randomInt(10_000_000_000, 99_999_999_999));
+  logger.warn('[zoom] Credentials belum dikonfigurasi — pakai mock meeting (dev only)', {
+    topic,
+    meetingId: id,
+  });
+  return {
+    id,
+    join_url: `https://zoom.us/j/${id}?pwd=mock`,
+    start_url: `https://zoom.us/s/${id}?zak=mock`,
+    password: 'mock123',
+  };
+}
+
 export async function createZoomMeeting(params: {
   topic: string;
   startTime: string; // ISO 8601
   duration: number; // menit
 }): Promise<ZoomMeeting> {
+  if (isDev && !hasZoomCredentials()) {
+    return mockZoomMeeting(params.topic);
+  }
+
   return zoomFetch<ZoomMeeting>('/users/me/meetings', {
     method: 'POST',
     body: JSON.stringify({
@@ -98,5 +122,12 @@ export async function createZoomMeeting(params: {
 }
 
 export async function deleteZoomMeeting(meetingId: string): Promise<void> {
+  if (isDev && !hasZoomCredentials()) {
+    logger.warn('[zoom] Credentials belum dikonfigurasi — skip delete mock meeting (dev only)', {
+      meetingId,
+    });
+    return;
+  }
+
   await zoomFetch<undefined>(`/meetings/${meetingId}`, { method: 'DELETE' });
 }

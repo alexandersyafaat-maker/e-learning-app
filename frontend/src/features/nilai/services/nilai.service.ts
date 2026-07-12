@@ -177,6 +177,7 @@ export async function fetchNilaiSiswa(siswaId: string): Promise<NilaiSiswa> {
         kelasId: l.kelasId,
         kelasNama: l.kelasNama,
         jawaban: h.jawaban,
+        lampiran: h.lampiran ?? [],
         nilai: h.nilai,
         submittedAt: h.submittedAt,
         createdAt: h.createdAt,

@@ -75,6 +75,7 @@ let DUMMY_SUBMISI: SubmisiTugas[] = [
     id: "st-001",
     tugasId: "tgs-001",
     siswaId: "u-004",
+    jawaban: "",
     catatan: "Terlampir rangkuman materi persamaan linear yang sudah saya buat.",
     lampiran: [
       { id: "lmp-st01", nama: "rangkuman-aljabar-siti.pdf", ukuran: 307200, tipe: "application/pdf", url: "/uploads/rangkuman-aljabar-siti.pdf" },

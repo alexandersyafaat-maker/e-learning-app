@@ -2,16 +2,9 @@
 
 import { cookies } from "next/headers";
 import type { ActionResponse } from "@/lib/types";
+import { COOKIE_OPTS } from "@/lib/cookie-config";
 import type { Session } from "../types/auth.types";
 import { uploadAvatarFile } from "@/lib/upload";
-
-const COOKIE_OPTS = {
-  httpOnly: true,
-  secure: process.env.NODE_ENV === "production",
-  sameSite: "lax" as const,
-  maxAge: 60 * 60 * 24 * 7,
-  path: "/",
-};
 
 export async function uploadAvatarAction(
   _prevState: ActionResponse<Session> | null,

@@ -3,6 +3,7 @@
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import type { ActionResponse } from "@/lib/types";
+import { COOKIE_OPTS } from "@/lib/cookie-config";
 import { Role } from "../types/auth.types";
 import { registerRequest } from "../services/auth.dummy";
 
@@ -13,14 +14,6 @@ const ROLE_REDIRECT: Record<Role, string> = {
 };
 
 const API_URL = process.env.API_URL ?? "http://localhost:8000/api";
-
-const COOKIE_OPTS = {
-  httpOnly: true,
-  secure: process.env.NODE_ENV === "production",
-  sameSite: "lax" as const,
-  maxAge: 60 * 60 * 24 * 7,
-  path: "/",
-};
 
 export async function registerAction(
   _prevState: ActionResponse<never> | null,

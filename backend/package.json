@@ -16,7 +16,8 @@
     "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "db:seed": "ts-node -r tsconfig-paths/register src/database/seed.ts"
+    "db:seed": "ts-node -r tsconfig-paths/register src/database/seed.ts",
+    "db:seed:prod": "cross-env NODE_ENV=production node dist/database/seed.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",

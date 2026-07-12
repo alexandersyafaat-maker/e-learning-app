@@ -1,5 +1,5 @@
 import { randomUUID } from 'crypto';
-import '@/config/env'; // validate env first
+import { isProd } from '@/config/env'; // validate env first
 import { connectDatabase, disconnectDatabase } from '@/config/database';
 import { logger } from '@/config/logger';
 import { hashPassword } from '@/utils/password';
@@ -44,8 +44,35 @@ const lampiranPdf = (nama: string): ILampiran => ({
   url: `https://storage.elearning.id/lampiran/${encodeURIComponent(nama)}`,
 });
 
+async function assertSafeToSeed(): Promise<void> {
+  if (!isProd) return;
+
+  const counts = await Promise.all([
+    UserModel.countDocuments(),
+    KelasModel.countDocuments(),
+    MateriModel.countDocuments(),
+    LatihanModel.countDocuments(),
+    HasilLatihanModel.countDocuments(),
+    TugasModel.countDocuments(),
+    SubmisiTugasModel.countDocuments(),
+    PertemuanModel.countDocuments(),
+    VocabCardModel.countDocuments(),
+    SRSProgressModel.countDocuments(),
+    ObrolanModel.countDocuments(),
+  ]);
+  const total = counts.reduce((a, b) => a + b, 0);
+
+  if (total > 0) {
+    throw new Error(
+      `[seed] Database production sudah berisi ${total} dokumen — seed dibatalkan untuk mencegah menghapus data production. ` +
+        'Seed cuma boleh jalan di database kosong (first deploy).',
+    );
+  }
+}
+
 async function seed(): Promise<void> {
   await connectDatabase();
+  await assertSafeToSeed();
 
   logger.info('[seed] Clearing existing collections...');
   await Promise.all([
